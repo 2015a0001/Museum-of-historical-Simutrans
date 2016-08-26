@@ -1,0 +1,1244 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+<!-- Mirrored from www.simutrans.de/german/simu/simdoc/simdoc.html by HTTrack Website Copier/3.x [XR&CO'2002], Wed, 11 Dec 2002 12:58:50 GMT -->
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./simdoc-Dateien/filelist.xml">
+<link rel=Edit-Time-Data href="./simdoc-Dateien/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Simutrans Anleitung</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Timo Koch</o:Author>
+  <o:LastAuthor>Timo Koch</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:Created>2002-12-11T13:00:00Z</o:Created>
+  <o:LastSaved>2002-12-11T13:01:00Z</o:LastSaved>
+  <o:Pages>8</o:Pages>
+  <o:Words>3281</o:Words>
+  <o:Characters>18707</o:Characters>
+  <o:Company>BRAVO SCREENFUN</o:Company>
+  <o:Lines>155</o:Lines>
+  <o:Paragraphs>37</o:Paragraphs>
+  <o:CharactersWithSpaces>22973</o:CharactersWithSpaces>
+  <o:Version>9.2812</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+h1
+	{color:black;}
+h2
+	{color:black;}
+h3
+	{color:black;}
+h4
+	{color:black;}
+a:link, span.MsoHyperlink
+	{color:blue;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;}
+p
+	{font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:1105030521;
+	mso-list-type:hybrid;
+	mso-list-template-ids:489060944 -1400190466 -981052430 -180575506 -157138422 -553997190 1842894936 -1049047200 581195528 1343516742;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=DE link=blue vlink=blue style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<h1 align=center style='text-align:center'>Simutrans Anleitung</h1>
+
+<h2>Vorwort</h2>
+
+<table border=0 cellspacing=8 cellpadding=0 width="100%" style='width:100.0%;
+ mso-cellspacing:6.0pt;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <tr>
+  <td width=64 valign=top style='width:48.0pt;background:#CCCCCC;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal><img width=64 height=64 id="_x0000_i1033"
+  src="..\..\..\images\45gradient_lok.gif">&nbsp; </p>
+  </td>
+  <td style='padding:0cm 0cm 0cm 0cm'>
+  <p>Diese Anleitung neigt dazu, veraltet zu sein, weil die Programnmierung von
+  Simutrans den größten Teil meiner Freizeit beansprucht und die Anleitung fast
+  immer nur an zweiter Stelle der Rangliste steht. Z.B. sind einige Screenshots
+  sehr alt, aktuelle Simutrans Versionen sehen deutlich anders aus. Zur Zeit
+  ist diese Anleitung eine Mischung aus aktueller und alter Information. Ich
+  hoffe, dass sie dennoch nützlich ist. </p>
+  </td>
+ </tr>
+</table>
+
+<h2><a name=inhalt>Inhaltsverzeichnis</a></h2>
+
+<span style='mso-bookmark:inhalt'></span>
+
+<table border=0 cellspacing=8 cellpadding=0 width="100%" style='width:100.0%;
+ mso-cellspacing:6.0pt;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <tr>
+  <td width=64 valign=top style='width:48.0pt;background:#CCCCCC;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal><img width=64 height=64 id="_x0000_i1034"
+  src="..\..\..\images\45gradient_lok.gif">&nbsp; </p>
+  </td>
+  <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal style='margin-left:36.0pt'><a href="install.html">1
+  Simutrans installieren</a> </p>
+  <p class=MsoNormal style='margin-left:36.0pt'><a href="start.html">2
+  Simutrans starten</a> </p>
+  <p class=MsoNormal style='margin-left:36.0pt'><a href="#ziel">3 Ziel des
+  Spiels</a> </p>
+  <p class=MsoNormal style='margin-left:36.0pt'><a href="#bedienung">4
+  Bedienung von Simutrans</a> </p>
+  <p class=MsoNormal style='margin-left:36.0pt'><a href="#werkzeugleiste">4.1
+  Die Werzeugleiste</a> </p>
+  <p class=MsoNormal style='margin-left:36.0pt'><a href="#werkzeuge">4.2 Die
+  Werzeugbeschreibungen</a> </p>
+  <p class=MsoNormal style='margin-left:36.0pt'><a href="#haltestellen">4.3
+  Haltestellen bauen</a> </p>
+  <p class=MsoNormal style='margin-left:36.0pt'><a href="#transportstrecken">4.4
+  Transportstrecken</a> </p>
+  <p class=MsoNormal style='margin-left:36.0pt'><a href="#options">4.5 Spieleinstellungen</a>
+  </p>
+  <p class=MsoNormal style='margin-left:36.0pt'><a href="tips.html"><span
+  lang=EN-GB style='mso-ansi-language:EN-GB'>5 Tips and Tricks</span></a><span
+  style='mso-ansi-language:EN-GB'> <span lang=EN-GB><o:p></o:p></span></span></p>
+  </td>
+ </tr>
+</table>
+
+<h2><a name=ziel>Ziel des Spiels</a></h2>
+
+<table border=0 cellspacing=8 cellpadding=0 width="100%" style='width:100.0%;
+ mso-cellspacing:6.0pt;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <tr>
+  <td width=64 valign=top style='width:48.0pt;background:#CCCCCC;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal><img border=0 width=64 height=64 id="_x0000_i1035"
+  src="..\..\..\images\45gradient_lok.gif">&nbsp; </p>
+  </td>
+  <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+  <p>Simutrans ist eine Transport- und Wirtschaftssimulation, die einige
+  ökologische Aspekte enthält. Ziel des Spielers ist es, durch den Transport
+  von Waren die Wirtschaft zum Funktionieren zu bringen und dabei die Umwelt
+  nicht zu ruinieren. Nebenbei kann man sich dabei eine goldene Nase verdienen,
+  der Hauptteil des erwirtschafteten Gewinns wird jedoch wieder in neue
+  Fahrzeuge und Transportrouten investiert werden müssen.</p>
+  <p>Beim Start der Simulation gibt es einige Fabriken und Städte, aber noch
+  keine Verkehrswege. Nun ist es am Spieler, mit seinem Startkapital
+  Verkehrswege zu erbauen, und Waren und Passagiere zu transportieren. </p>
+  <p><a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+  </td>
+ </tr>
+</table>
+
+<h2><a name=bedienung>Bedienung von Simutrans</a></h2>
+
+<table border=0 cellspacing=8 cellpadding=0 width="100%" style='width:100.0%;
+ mso-cellspacing:6.0pt;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <tr>
+  <td width=64 valign=top style='width:48.0pt;background:#CCCCCC;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal><img border=0 width=64 height=64 id="_x0000_i1036"
+  src="..\..\..\images\45gradient_lok.gif">&nbsp; </p>
+  </td>
+  <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+  <p>Simutrans startet mit einer relativ leeren Landschaft. Vor allem die
+  Städte und Bäume brauchen erst einige Zeit um sich zu entwickeln. </p>
+  <p>Die folgende Abbildung zeigt das Hauptfenster von Simutrans direkt nach
+  dem Programmstart. </p>
+  <p align=center style='text-align:center'><a href="images\simwin.gif"><span
+  style='text-decoration:none;text-underline:none'><img border=0 width=170
+  height=128 id="_x0000_i1037" src="images\simwin_small.gif"
+  alt="Simutrans Hauptfenster"></span></a><br>
+  (Zum Vergrößern anklicken) </p>
+  </td>
+ </tr>
+</table>
+
+<h3><a name=werkzeugleiste>Die Werkzeugleiste</a></h3>
+
+<p>Am oberen Rand des Fensters von Simutrans ist eine kleine Icon-Leiste mit
+Icons für häufig gebrauchte Funktionen zu finden. Die Iconleiste enthät
+folgende Werkzeuge:</p>
+
+<div align=center>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1038"
+  src="..\..\..\common\simu\simdoc\icons\abfrage.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Abfragewerkzeug zur Abfrage von Informationen zu
+  Objekten.</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1039"
+  src="..\..\..\common\simu\simdoc\icons\unused.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>z.Z. ungenutzt</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1040"
+  src="..\..\..\common\simu\simdoc\icons\raise.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Anhebewerkzeug zum Anheben der Landschaft.</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1041"
+  src="..\..\..\common\simu\simdoc\icons\unused.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>z.Z. ungenutzt</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1042"
+  src="..\..\..\common\simu\simdoc\icons\lower.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Absenkewerkzeug zum Absenken der Landschaft.</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1043"
+  src="..\..\..\common\simu\simdoc\icons\post.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Postannahmestellenbauwerkzeug.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1044"
+  src="..\..\..\common\simu\simdoc\icons\relief.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Die Reliefkarte zur schnellen Navigation in Simutrans.</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1045"
+  src="..\..\..\common\simu\simdoc\icons\unused.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>z.Z. ungenutzt</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1046"
+  src="..\..\..\common\simu\simdoc\icons\roadtools.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Dieses Icon öffnet ein weiteres Werkzeugfenster mit
+  Straßenbauwerkzeugen.</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1047"
+  src="..\..\..\common\simu\simdoc\icons\unused.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>z.Z. ungenutzt</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1048"
+  src="..\..\..\common\simu\simdoc\icons\railtools.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Dieses Icon öffnet ein weiteres Werkzeugfenster mit
+  Gleisbauwerkzeugen.</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1049"
+  src="..\..\..\common\simu\simdoc\icons\snapshot.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Kamerawerkzeug zum Speichern von Screenshots im
+  PCX-Format.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1050"
+  src="..\..\..\common\simu\simdoc\icons\shiptools.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Dieses Icon öffnet ein weiteres Werkzeugfenster mit
+  Schiffs-/Dockbauwerkzeugen.</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1051"
+  src="..\..\..\common\simu\simdoc\icons\strassentunnel.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Straßentunnelwerkzeug.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1052"
+  src="..\..\..\common\simu\simdoc\icons\options.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Öffnet das Fenster für die Spieleinstellungen (Farbe,
+  Sprache, Mitspieler).</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1053"
+  src="..\..\..\common\simu\simdoc\icons\schienentunnel.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Schienentunnelwerkzeug.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1054"
+  src="..\..\..\common\simu\simdoc\icons\remove.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Abrisswerkzeug zum Entfernen nicht mehr benötigter
+  Dinge.</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1055"
+  src="..\..\..\common\simu\simdoc\icons\roadbridge.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Straßenbrückenbauwerkzeug zum Bau von Straßenbrücken.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1056"
+  src="..\..\..\common\simu\simdoc\icons\unused.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>z.Z. ungenutzt</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1057"
+  src="..\..\..\common\simu\simdoc\icons\railbridge.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Schienenbrückenbauwerkzeug zum Bau von
+  Schienenbrücken.</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p>Über die Strassenbau-, Schienenbau- und Schiffsbauicons können drei weitere
+Fenster mit Werkzeugen geöffnet werden.</p>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=128 height=80 id="_x0000_i1058"
+  src="images\railtools.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Hierüber können die Werkzeuge für Schienenbau, den Bau von
+  Signalen, den Bau von Bahnhöfen und Bahndepots aktiviert werden.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=128 height=80 id="_x0000_i1059"
+  src="images\roadtools.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Hierüber können die Werkzeuge für Straßenbau,
+  Bushaltestellen, Frachthöfe und für den Bau von Fahrzeugdepots aktiviert
+  werden.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=128 height=80 id="_x0000_i1060"
+  src="images\shiptools.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Hierüber können die Werkzeuge zum Bau von Schiffsdepots
+  and Anlegestellen aktiviert werden. Die Schiffsdepots gibt es in den
+  Varianten Nord-Süd und Ost-West.</p>
+  </td>
+ </tr>
+</table>
+
+<p>Eine detaillierte Beschreibung zu den Werkzeugen ist in den folgenden
+Abschnitten zu finden. Doch zuerst noch zu einem Punkt, der immer wieder zu
+Verwirrung führt. </p>
+
+<p>Simutrans benutzt <i>zweierlei</i> Mauszeiger:</p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Einen Landschaftszeiger:<br>
+     Der Landschaftzeiger zeigt auf die Stelle in der Landschaft, an der das
+     aus der Menüleiste ausgewählte Werkzeug zum Einsatz kommt. Die Form des
+     Landschaftszeigers ändert sich je nach ausgewähltem Werkzeug, sie
+     entspricht meist dem Icon aus der Menüleiste. </li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Einen normalen Mauszeiger:<br>
+     Dieser wird benutzt, um Werkzeuge aus der Iconleiste auszuwählen oder
+     Aktionen in Fenstern auszulösen, z.B. an einen Punkt in der Reliefkarte zu
+     springen.</li>
+</ul>
+
+<p>Doch nun zur Beschreibung der Werkzeuge.<br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a></p>
+
+<h3><a name=werkzeuge>Die Werkzeuge</a></h3>
+
+<h4><a name=abfrage>Abfragemodus </a></h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1061"
+  src="..\..\..\common\simu\simdoc\icons\abfrage.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Der Abfragemodus dient zur Abfrage von Informationen zu
+  einzelnen Objekten. Dazu genügt es, das abzufragende Objekt mit dem
+  Landschaftszeiger anzuklicken. Simutrans öffnet daraufhin ein
+  Informationsfenster mit den Informationen zum Objekt.</p>
+  </td>
+ </tr>
+</table>
+
+<p>siehe: <a href="stationwin\info.html">Beschreibung zum Haltestellenfenster</a><br>
+siehe: <a href="induinfo\info.html">Beschreibung zum Fabrikinfofenster</a><br>
+siehe: <a href="cityinfo\index.html">Beschreibung zum Stadtinformationsfenster</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4>Anheben</h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1062"
+  src="..\..\..\common\simu\simdoc\icons\raise.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Anheben-Werkzeug dient zum Anheben einzelner Stellen
+  in der Landschaft. Einfach die gewünschte Stelle anklicken, und das Land wird
+  eine Stufe aufgeschüttet. So kann man Senken füllen oder kleine Hügel bauen. </p>
+  </td>
+ </tr>
+</table>
+
+<p><a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4>Absenken</h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1063"
+  src="..\..\..\common\simu\simdoc\icons\lower.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Absenken-Werkzeug dient zum Absenken einzelner Stellen
+  in der Landschaft. Es funktioniert analog zum Anheben-Werkzeug. </p>
+  </td>
+ </tr>
+</table>
+
+<p><a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4>Reliefkarte</h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1064"
+  src="..\..\..\common\simu\simdoc\icons\relief.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Die Reliefkarte dient vor allem zur einfacheren Navigation
+  in der Landschaft. Durch einen Klick mit dem Mauszeiger in die Reliefkarte
+  springt Simutrans automatisch zu der entsprechenden Stelle in der Landschaft.
+  </p>
+  </td>
+ </tr>
+</table>
+
+<p align=center style='text-align:center'><img border=0 width=256 height=272
+id="_x0000_i1065" src="images\relief.gif" alt=Reliefkarte></p>
+
+<p>Gebäude werden grau dargestellt, Straßen und Schienen sind schwarz in der
+Karte eingezeichnet. Haltestellen werden rot dargestellt. </p>
+
+<p><a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4>Schienenbau</h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1066"
+  src="..\..\..\common\simu\simdoc\icons\rails.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Zum Schienenbau klickt man einfach hintereinander zwei
+  Stellen in der Landschaft an. Die Stellen werden dann automatisch durch eine
+  Schienenstrecke verbunden.<br>
+  Man sollte dabei darauf achten, daß eine vernünftige Streckenführung zwischen
+  den beiden Punkten möglich ist, da der Baualgorithmus sonst u.U. sehr
+  ausschweifende Strecken baut. Trotzdem baut der Algorithmus immer die
+  kürzeste mögliche Verbindung. </p>
+  </td>
+ </tr>
+</table>
+
+<p><a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4>Strassenbau</h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1067"
+  src="..\..\..\common\simu\simdoc\icons\roads.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Funktioniert analog zum Schienenbau, nur daß hiermit eben
+  Strassen statt Schienen gebaut werden. </p>
+  </td>
+ </tr>
+</table>
+
+<p><a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4>Wasserwege</h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1068"
+  src="..\..\..\common\simu\simdoc\icons\shiptools.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Wasserwege können nur durch die Werkzeuge zum Anheben und
+  Absenken der Landschaft verändert werden; Wasser befindet sich immer auf der
+  untersten Ebene. </p>
+  </td>
+ </tr>
+</table>
+
+<p><a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4>Abriss</h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1069"
+  src="..\..\..\common\simu\simdoc\icons\remove.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Abrisswerkzeug entfernt Objekte aus der Karte. Es
+  können nur Objekte entfernt werden, die entweder dem Spieler selbst oder
+  niemandem gehören. </p>
+  </td>
+ </tr>
+</table>
+
+<p><a href="#inhalt">Zum Inhaltsverzeichnis</a></p>
+
+<h3><a name=haltestellen>Haltestellen</a></h3>
+
+<p>Bisher stehen für Strassenfahrzeuge als Haltestellen Bushaltestellen und
+Frachthöfe zur Verfügung. Züge aller Art werden in Bahnhöfen be- und entladen.</p>
+
+<p>Passagiere in Simutrans bevorzugen die jeweils kürzeste Strecke zum Ziel.
+Direktverbindungen (ohne Umsteigen) werden bevorzugt. Passagiere reisen vornehmlich
+innerhal einer Stadt aber auch zwischen nahen Städten herscht in der Regel ein
+hoher Bedarf an Passgiertransport. Des weitern müssen die Leute zu ihren
+Arbeitsplätzen in den Fabriken und wieder zurück gebracht werden. Auch
+Ausflugsziele sind ein Lohnendes Ziel für Passagierverbindungen.</p>
+
+<p>Waren werden von den Herstellern auf alle Verbindungen zum Ziel verteilt.
+Hier ist nicht unbedingt die kürzeste Verbindung gefragt, sondern vielmehr die
+Gesamtkapazität. </p>
+
+<p>Passagiere und Waren steigen in Richung auf ihr Fahrtziel beliebig oft um.
+Post kann nur an Haltestellen mit Posthäuschen umgeladen werden.</p>
+
+<p>siehe: <a href="stationwin\info.html">Beschreibung zum Haltestellenfenster</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4><a name=stations>Bahnhofselemente</a></h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1070"
+  src="..\..\..\common\simu\simdoc\icons\station.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Die Bahnhofselemente dienen zum Bau von Bahnhöfen. Als
+  Bahnhofselemente stehen bisher der Bahnsteig und das Posthäuschen zur
+  Verfügung. Ohne Posthäuschen kann an einem Bahnhof keine Post befördert
+  werden.</p>
+  </td>
+ </tr>
+</table>
+
+<p>siehe: <a href="station\build.html">Wie baut man einen Bahnhof</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4><a name=busstop>Bushaltestellen</a></h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1071"
+  src="..\..\..\common\simu\simdoc\icons\busstop.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Bushaltestellen können an jeder Straße gebaut werden.
+  Simutrans baut die Bushaltestellen automatisch in der richtigen Richtung.
+  Baut man neben der Bushaltestelle ein Posthäuschen dann können an dieser
+  Haltestelle sowohl Post als auch Passagiere befördert werden.</p>
+  </td>
+ </tr>
+</table>
+
+<p>siehe: <a href="busstop\build.html">Wie baut man eine Bushaltestelle</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4><a name=harbor>Hafen</a></h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1072"
+  src="..\..\..\common\simu\simdoc\icons\harbor.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Häfen können an jedem geraden Ufer gebaut werden. Es muß
+  also ein Stück Ufer neben einem ganzen Feld Wasser liegen.</p>
+  </td>
+ </tr>
+</table>
+
+<p>siehe: <a href="harbor\build.html">Wie baut man einen Hafen</a><br>
+externes Tutorial (englisch): <a
+href="..\..\..\..\www.simutrans-tips.com\en\simu_tut\ship.html">How to use
+ships for oil transport</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4>Frachthöfe</h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1073"
+  src="..\..\..\common\simu\simdoc\icons\frachthof.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Wie beim Bahnhof muß auch beim Frachthof zuerst die Strassen
+  gebaut werden, und erst nach den Strassen den eigentlichen Frachthof an die
+  richtige Stelle zu bauen, da sonst die Strasse nicht richtig an den Frachthof
+  angeschlossen wird.</p>
+  </td>
+ </tr>
+</table>
+
+<p>siehe: <a href="frachthof\build.html">Wie baut man einen Frachthof</a><br>
+externes Tutorial: <a
+href="..\..\..\..\www.simutrans-tips.com\de\simu_tut\truck.html">Güter mit LKW
+transportieren</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4>Posthäuschen</h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1074"
+  src="..\..\..\common\simu\simdoc\icons\post.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Posthäuschen nehmen Pakete an und lagern die Pakete bis
+  zum Transport. Wird an einer Haltestelle (egal welchen Typs) ein Posthäuschen
+  gebaut, kann von dort (und dorthin) Post transportiert werden. Für Post gibt
+  es eine Beliebtheitsquote analog zum Passagiertransport.</p>
+  </td>
+ </tr>
+</table>
+
+<p><a href="#inhalt">Zum Inhaltsverzeichnis</a></p>
+
+<h3><a name=transportstrecken>Transportstrecken</a></h3>
+
+<h4><a name=bdepot>Bahndepot</a></h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1075"
+  src="..\..\..\common\simu\simdoc\icons\bdepot.gif" alt=Bahndepot></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Bahndepot dient als Kontrollstelle für den Zugverkehr.
+  Hier werden neue Lokomotiven und Waggons gekauft und Züge zusammengestellt.
+  Auch die Fahrpläne der einzelnen Züge werden hier erstellt.</p>
+  </td>
+ </tr>
+</table>
+
+<p>siehe: <a href="bdepot\build.html">Wie baut man ein Bahndepot</a><br>
+siehe: <a href="bdepot\use.html">Wie baut man einen Zug/Wie benutzt man ein
+Bahndepot</a> <br>
+siehe: <a href="schedule\schedule.html">Wie erstellt man einen Fahrplan</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4><a name=sdepot>Straßendepot</a></h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1076"
+  src="..\..\..\common\simu\simdoc\icons\sdepot.gif" alt=Strassendepot></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Straßendepot dient als Kontrollstelle für den
+  Straßenverkehr. Hier werden neue Busse, LKWs und Anhänger für die LKWs
+  gekauft und zusammengestellt. Auch die Fahrpläne der einzelnen Fahrzeuge
+  werden hier erstellt.</p>
+  </td>
+ </tr>
+</table>
+
+<p>Das Straßendepot funktioniert analog zum Bahndepot, wobei jetzt die Busse
+und LKWs den Platz er Lokomotiven einnehmen. Anhänger werden wie Waggons
+behandelt.</p>
+
+<p>siehe: <a href="sdepot\build.html">Wie baut man ein Straßendepot</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4><a name=schdepot>Schiffdepot</a></h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1077"
+  src="..\..\..\common\simu\simdoc\icons\shipdepot.gif" alt=Schiffdepot></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Das Schiffdepot ist die Kontrollstelle für den
+  Seetransport. Hier können neue Schiffe gekauft und die Fahrpläne neu erstellt
+  werden.</p>
+  </td>
+ </tr>
+</table>
+
+<p>Das Schiffdepot funktioniert analog zum Bahndepot, wobei jetzt Schiffe den
+Platz er Lokomotiven einnehmen. </p>
+
+<p>siehe: <a href="schdepot\build.html">Wie baut man ein Schiffdepot</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4><a name=schedules>Fahrpläne</a></h4>
+
+<p><span style='mso-bookmark:schedules'>Allgemeines: </span></p>
+
+<p><span style='mso-bookmark:schedules'>Ein Zug wird immer den Bahnsteig
+benutzen, der bei der Eingabe des Fahrplanes angeklickt wurde. Das gilt auch
+für LKW, wenn man Frachthöfe mit mehreren Ladebuchten gebaut hat. </span></p>
+
+<p><span style='mso-bookmark:schedules'>Nur Fahrzeuge/Waggons im innern von
+Haltstellen werden be- bzw. entladen. D.h. wenn ein Zug länger ist als der
+Bahnhof, dann werde die Waggons ausserhalb des Bahnhofes nicht beladen. Wenn im
+Fahrplan &quot;Warte auf 100% beladung&quot; angeben wurde, dann wartet der Zug
+endlos, da die Waggons ausserhalb des Bahnhofs niemals beladen werden. </span></p>
+
+<p><span style='mso-bookmark:schedules'>siehe: </span><a
+href="schedule\schedule.html">Wie erstellt man einen Fahrplan</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4><a name=signals>Signale</a></h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1078"
+  src="..\..\..\common\simu\simdoc\icons\signals.gif" alt=Signale></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Mit signalen können mehrere Züge eine Strecke befahren.
+  D.h. mit Signalen kann man die Transportpapazität der Strecken erhöhen. </p>
+  </td>
+ </tr>
+</table>
+
+<p>siehe: <a href="signals\signals.html">Wie benutzt man Signale</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4><a name=zweispur>Zweispurinseln</a></h4>
+
+<p>Zweispurinseln werden einfach aus Gleisstücken zusammengesetzt. Es existiert
+kein extra Werkzeug, um Ausweichstellen zu bauen.</p>
+
+<p>siehe: <a href="zweispur\build.html">Wie baut man eine Zweispurinsel</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h4><a name=bridges>Brücken</a></h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1079"
+  src="..\..\..\common\simu\simdoc\icons\roadbridge.gif"><br>
+  <img border=0 width=32 height=32 id="_x0000_i1080"
+  src="..\..\..\common\simu\simdoc\icons\railbridge.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Brücken können an beliebigen Hängen gebaut werden, solange
+  gegenüber des Hanges ein zweiter Hang gleicher Höhe liegt.</p>
+  <p>Sollte eine Brücke durch eine andere Baumaßnahme einmal beschädigt werden,
+  kann sie durch Anklicken eines ihrer Endpunkte im Brückenbaumodus repariert
+  weren.</p>
+  </td>
+ </tr>
+</table>
+
+<p>siehe: <a href="bridge\bridge.html">Wie baut man Brücken</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a></p>
+
+<p>Die nächste Abbildung zeigt eine Straße über die eine Straßenbrücke führt.
+Die Straßenbrücke ihrerseits wird wiederum von einer Schienenbrücke überspannt.</p>
+
+<p align=center style='text-align:center'><img border=0 width=364 height=323
+id="_x0000_i1081" src="images\bridges.gif" alt=Bruecken></p>
+
+<h4><a name=tunnels>Tunnel</a></h4>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1082"
+  src="..\..\..\common\simu\simdoc\icons\strassentunnel.gif"><br>
+  <img border=0 width=32 height=32 id="_x0000_i1083"
+  src="..\..\..\common\simu\simdoc\icons\schienentunnel.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Der Tunnelbau ist dem Brückenbau recht ähnlich. Wie
+  Brücken können auch Tunnel an beliebigen geraden Hängen gebaut werden. An
+  beiden Hängen muß die Straße bis zum künftigen Eintrittspunkt des Tunnels
+  reichen. Ist die Straße gebaut, genügt es, im entsprechenden Tunnelbaumodus
+  den Hang mit der Straße anzuklicken und der Tunnel wird blitzartig gebaut.</p>
+  </td>
+ </tr>
+</table>
+
+<p>siehe: <a href="tunnel\tunnel.html">Wie baut man Tunnel</a><br>
+<a href="#inhalt">Zum Inhaltsverzeichnis</a> </p>
+
+<h3><a name=options>Einstellungen</a></h3>
+
+<table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><img border=0 width=32 height=32 id="_x0000_i1084"
+  src="..\..\..\common\simu\simdoc\icons\options.gif"></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Ein Klick auf dieses Icon öffnet das Fenster mit den
+  diversen Einstellungen. Darunter fallen z.B. die Sprachumschaltung, die
+  Einstellung der Spielerfarbe, die Spieleranzhal, die Einstellungen der
+  Anzeige sowie das Laden und Speichern von Spielständen sowie das Beenden des
+  Programms.</p>
+  </td>
+ </tr>
+</table>
+
+<p>siehe: <a href="options\options.html">Das Einstellungsfenster<br>
+</a><a href="#inhalt">Zum Inhaltsverzeichnis</a></p>
+
+<h3>Tastaturbedienung</h3>
+
+<p>Einige Funktionen von Simutrans können über die Tastatur aufgerufen werden. </p>
+
+<div align=center>
+
+<table border=1 cellpadding=0 style='mso-cellspacing:1.5pt;border:outset 1.5pt'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>,</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Nicht dokumentiert</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>.</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Nicht dokumentiert</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>!</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Stadt- und Haltstellennamen ein-/ausblenden</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>a</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Abfragewerkzeug</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>b</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Waggonzähler neu setzen (-&gt;Signale)</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>c</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Screenshot speichern</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>d</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Land absenken</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>f</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Finanzfenster öffnen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>g</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Nicht dokumentiert</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>k</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Spielerliste öffnen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>l</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Nicht dokumentiert</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>m</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Reliefkarte öffnen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=FR
+  style='mso-ansi-language:FR'>p<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span lang=FR style='mso-ansi-language:FR'>Pause<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=FR
+  style='mso-ansi-language:FR'>r<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Abrißwerkezeug</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>s</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Strasse bauen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>t</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Schienen bauen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>u</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Land anheben</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>w</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Nicht dokumentiert</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>+</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Anzeige heller</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>-</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Anzeige dunkler</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>C</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Fahrzeugliste öffnen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Q, X</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Spiel beenden</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>P</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Nicht dokumentiert</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>L</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Spielstand laden</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>S</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Spielstand speichern</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>9</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Karte nach Nordosten scrollen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>1</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Karte nach Südesten scrollen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>7</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Karte nach Nordwesten scrollen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>3</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Karte nach Südosten scrollen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>6</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Karte nach Osten scrollen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>2</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Karte nach Süden scrollen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>8</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Karte nach Norden scrollen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>4</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Karte nach Westen scrollen</p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Delete<br>
+  Backspace</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Alle Fenster schließen</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal align=center style='text-align:center'><i>Viel Spass beim
+Spielen!</i></p>
+
+<p>&nbsp;</p>
+
+<p>© Hansjörg Malthaner<br>
+EMail: <a href="mailto:hansjoerg.malthaner@gmx.de">hansjoerg.malthaner@gmx.de</a>
+<br>
+Mit Unterstützung von Henrik Wolff<br>
+EMail: <a href="mailto:eMail@Henrik-Wolff.de">eMail@Henrik-Wolff.de</a> </p>
+
+<p class=MsoNormal><span style='color:windowtext'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+<!-- Mirrored from www.simutrans.de/german/simu/simdoc/simdoc.html by HTTrack Website Copier/3.x [XR&CO'2002], Wed, 11 Dec 2002 12:58:51 GMT -->
+</html>
