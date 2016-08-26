@@ -1,0 +1,945 @@
+Suomi
+GAME PAUSED
+PELI KESKEYTETTY
+BF
+(asema)
+H
+(pysäkki)
+Dock
+(laituri)
+1center
+%s taajama %s
+2center
+%s keskusta %s
+3center
+%s kylä %s
+4center
+%s sisus %s
+5center
+%s risteys %s
+1nord
+%s pohjoinen %s
+1nordost
+%s koillinen %s
+1ost
+%s itä %s
+1suedost
+%s kaakko %s
+1sued
+%s etelä %s
+1suedwest
+%s lounas %s
+1west
+%s länsi %s
+1nordwest
+%s luode %s
+1extern
+%s haara %s
+2extern
+%s sivu %s
+3extern
+%s maaseutu %s
+4extern
+%s ulkoinen %s
+%1_CITY_SYLL
+Uusi
+%2_CITY_SYLL
+Vähä
+%3_CITY_SYLL
+Peruna
+%4_CITY_SYLL
+Viher
+%5_CITY_SYLL
+Armon
+%6_CITY_SYLL
+Omena
+%7_CITY_SYLL
+Oja
+%8_CITY_SYLL
+Lahti
+%9_CITY_SYLL
+Vanha
+%A_CITY_SYLL
+Kivi
+%B_CITY_SYLL
+Kauko
+&1_CITY_SYLL
+kaupunki
+&2_CITY_SYLL
+kylä
+&3_CITY_SYLL
+joki
+&4_CITY_SYLL
+linna
+&5_CITY_SYLL
+metsä
+&6_CITY_SYLL
+laakso
+&7_CITY_SYLL
+keto
+&8_CITY_SYLL
+kulma
+&9_CITY_SYLL
+niitty
+&A_CITY_SYLL
+pohja
+RAILTOOLS
+Rautatie
+ROADTOOLS
+Tie
+SHIPTOOLS
+Laiva
+BRIDGETOOLS
+Siltatyökalut
+LANG_CHOOSE\n
+Valitse kieli\nkäyttöliittymälle\n
+COLOR_CHOOSE\n
+Valitse yhtiöllesi väri\n
+1LIGHT_CHOOSE
+Kirkkaus
+2LIGHT_CHOOSE
+Värit
+3LIGHT_CHOOSE
+Vieritysnopeus
+4LIGHT_CHOOSE
+Käänteinen vieritys
+5LIGHT_CHOOSE
+Näytä jalankulkijat
+Fahrzeugliste
+Kulkuneuvolista
+1WORLD_CHOOSE
+Uuden kartan asetukset:
+2WORLD_CHOOSE
+Kartan numero
+3WORLD_CHOOSE
+Kartan koko
+4WORLD_CHOOSE
+Yritystiheys
+5WORLD_CHOOSE
+Kaupunkien määrä
+6WORLD_CHOOSE
+Liikennetiheys
+7WORLD_CHOOSE
+Näytä jalankulkijat
+8WORLD_CHOOSE
+Käytä päivä/yö-tilaa
+Water level
+Veden taso
+Mountain height
+Mäkien korkeus
+Map roughness
+Maaston tasaisuus
+Random map
+Random map
+Cancel
+Peruuta
+Ok
+Ok
+Finances
+Talous
+Construction:
+Rakennus:
+New Vehicles:
+Uudet kulkuneuvot:
+Vehicle Running Costs:
+Liikennekustannukset:
+Income:
+Tulot:
+Balance:
+Kate:
+Total:
+Yhteensä:
+Last Year
+Viime vuosi
+This Year
+Tämä vuosi
+LOCO_INFO
+%s\nHinta: %d$ (%1.2f$/km)\nTeho: %dKW, %dkm/h\nPaino: %dt\nKapasiteetti: %d%s %s\n
+WAGGON_INFO
+%s\nHinta: %d$ (%1.2f$/km)\nKapasiteetti: %d%s %s\nPaino: %dt\n
+Helligk. u. Farben
+Näytön asetukset
+1Diesellokomotive
+H-Trans BR212 (diesel)
+2Diesellokomotive
+H-Trans BR218 (diesel)
+3Diesellokomotive
+H-Trans BR218 (diesel)
+1Dampflokomotive
+H-Trans 0-4-0T (höyry)
+2Dampflokomotive
+H-Trans 4-6-0 (höyry)
+1Ellok
+H-Trans BR103 (sähkö)
+2Ellok
+H-Trans Tigress I (sähkö)
+1TPEllok
+TPI F7A (diesel)
+1Schienenbus
+H-Trans/TPI VT95 (dmu)
+Beiwagen
+H-Trans/TPI VT95 matkustajavaunu
+TPSchienenbus
+TPI VT98 (dmu)
+TPBeiwagen
+TPI VT98 matkustajavaunu
+Passagierwagen
+H-Trans matkustajavaunu
+TPPassagierwagen
+TPI matkustajavaunu
+S220_LOK1
+TPI S220 vetoyksikkö (emu)
+S220_CAR
+TPI S220 matkustajavaunu
+S220_LOK2
+TPI S220 työntöyksikkö (emu)
+DM8_LOK1
+TPI Dm8 vetoyksikkö (dmu)
+DM8_CAR
+TPI Dm8 matkustajavaunu
+DM8_LOK2
+TPI Dm8 työntöyksikkö (dmu)
+Postwagen
+H-Trans postivaunu
+Erzwagen
+H-Trans rautamalmivaunu
+Kohlewagen
+H-Trans hiilivaunu
+Holzwagen
+H-Trans puutavaravaunu
+Oelwagen
+VT vienna öljysäiliövaunu
+Stahlwagen
+VT vienna teräsvaunu
+Staubkesselwagen
+VT vienna muovisäiliövaunu
+Moebelwagen
+VT vienna huonekaluvaunu
+Autotransportwagen
+TPI Lopomo autonkuljetusvaunu
+Papierwagen
+VT Vienna paperivaunu
+Buchwagen
+VT Vienna kirjavaunu
+Bretterwagen
+VT Vienna lautavaunu
+2TPEllok
+TPI Class 86/2 (sähkö)
+TENDER
+TPI Tender
+TPDiesel
+TPI Class 26 (diesel)
+Autotransporter
+H-Trans autonkuljetusvaunu
+Moebeltransporter
+WF Ultd. huonekalurekka
+Brettertransporter
+WF Ultd. lankkurekka
+Bus
+H-Trans linja-auto
+Li6
+Serj LiAZ-677
+Ik26
+Serj Ikarus-260
+Serj-Mini
+Serj Maxi-Taxi
+Posttransporter
+H-Trans postiauto
+HVPosttransporter
+DIBU/H-Trans postiauto
+Holztransporter
+H-Trans tukkirekka
+Erztransporter
+H-Trans rautamalmirekka
+Kohletransporter
+H-Trans hiilirekka
+Tanklastzug
+H-Trans öljysäiliöauto
+Kunststofftransporter
+H-Trans muovisäiliöauto
+Stahltransporter
+H-Trans teräsrekka
+Papiertransporter
+Trikky paperirekka
+Buchtransporter
+Serj/H-Trans kirjarekka
+Erzanhaenger
+H-Trans rautamalmiperävaunu
+Oelanhaenger
+H-Trans öljysäiliöperävaunu
+Möbelanhaenger
+WF Ultd. huonekaluperävaunu
+SlowFerry
+H-Trans matkustajalautta
+FastFerry
+O.Bang ilmatyynyalus
+Oeltankschiff
+TPI Lopomo öljytankkeri
+Holzschiff
+TPI/JET tukkialus
+Kohleschiff
+WF Ultd. hiilialus
+Furniture truck
+WF Ultd. huonekalualus
+Sand truck
+WF Ultd. hiekkarekka
+Stone truck
+WF Ultd. kivirekka
+Cement truck
+WF Ultd. sementtiauto
+Concrete mix truck
+WF Ultd. betoniauto
+Furniture waggon
+WF Ultd. huonekaluvaunu
+Sand waggon
+WF Ultd. hiekkavaunu
+Stone waggon
+WF Ultd. kivivaunu
+Cement waggon
+WF Ultd. sementtivaunu
+Concrete mix waggon
+WF Ultd. betonivaunu
+Eigenbesitz\n
+Julkista omaisuutta\n
+Privatbesitz\n
+Yksityisomaisuutta\n
+Spieler
+Pelaaja
+Spieler(mz)
+Pelaajat
+Lok/Waggon
+Juna
+Fussgaenger
+Jalankulkija
+Baum
+Puu
+Bruecke
+Silta
+Tunnelmuendung
+Tunneli
+Gebaeude
+Rakennus
+Gebäude
+Rakennus
+Haus
+Talo
+Wolke
+Pilvi
+Lagerhaus
+Varasto
+Schiene
+Raide
+Strasse
+Tie
+Wasser
+Vesi
+Boden
+Maa
+Tage alt
+päivää vanha
+Baustelle
+Rakennustyömaa
+Alter
+Ikä
+Wert
+Arvo
+Level
+Taso
+Haltestelle
+Pysäkki/asema
+Hier warten/lagern:
+Matkustajia/tavaroita asemalla:
+Angenommene Waren
+Lähiyritysten tarvitsemat tavarat
+   via %s\n
+   kautta %s\n
+Direkt erreichbare Haltestellen
+Suorat yhteydet asemille
+Stadtinformation
+Tiedot kaupungista
+Einwohner
+asukasta
+Passagierziele
+Matkustajien ja postin määränpäät
+letzen Monat: diesen Monat:
+viime kuu:              tämä kuu:
+Bücher
+kirjoja
+Kohle
+hiiltä
+Eisenerz
+rautamalmia
+Stahl
+terästä
+Passagiere
+matkustajaa
+Passagierrate
+matkustajat
+Pass.
+Matk.
+Post
+postia
+Holz
+tukkeja
+Bretter
+lautoja
+Oel
+öljyä
+Plastik
+muovia
+Autos
+autoa
+Papier
+paperia
+LKW
+Rekka
+Zug
+Juna
+Fracht
+Rahti
+Gewinn
+Tulot
+Leistung
+Teho
+Gewicht
+Paino
+Nutzwald
+Viljelysmetsä
+Sägewerk
+Saha
+Erzbergwerk
+Rautakaivos
+Kohlegrube
+Hiilikaivos
+Stahlwerk
+Rautavalimo
+Oelfeld
+Öljykenttä
+Oelbohrinsel
+Öljynporauslautta
+Raffinerie
+Jalostamo
+Autohersteller
+Autotehdas
+Autohaus
+Autokauppa
+Kohlekraftwerk
+Hiilivoimala
+Papierfabrik
+Paperitehdas
+Druckerei
+Kirjapaino
+Möbelfabrik
+Huonekalutehdas
+Buchgrosshandel
+Kirjatukku
+Moebelhaus
+Huonekalukauppa
+Furniture
+Huonekalu
+Sand
+Hiekka
+Stone
+Kivi
+Cement
+Sementti
+Concrete
+Betoni
+Furniture factory
+Huonekalutehdas
+Home Market
+Home Market
+Sand quarry
+Hiekkalouhos
+Stone quarry
+Kivilouhos
+Cement mill
+Sementtivalimo
+Concrete factory
+Betonimylly
+Material wholesale
+Tarviketukku
+Durchsatz
+Maksimituotanto
+Produktion
+Tuotanto
+Verbrauch
+Kulutus
+Power
+Virta
+strong
+vahva
+good
+hyvä
+weak
+heikko
+fail
+poikki
+Leitung
+Sähköjohto
+Abnehmer
+Kuluttaja
+Arbeiter aus:
+Työntekijät asuvat:
+bei
+
+leer
+tyhjä
+nichts
+ei mitään
+keine
+ei mitään
+Details
+Lisätiedot
+Meldung
+Viesti
+Strassendepot
+Autovarikko
+Bahndepot
+Veturitalli
+Schiffdepot
+Telakka
+Verschuldet:\n\nDu hast %d Monate Zeit,\ndie Schulden zurueckzuzahlen.\n
+Yhtiölläsi on velkoja!\n\nSinulla on %d kuukautta\naikaa maksaa velkasi.\n
+Verschuldet:\n\nDenk daran, rechtzeitig\ndie Schulden zurueckzuzahlen.\n
+Yhtiölläsi on velkoja!\n\nMuista maksaa velkasi.\n
+Bankrott:\n\nDu bist bankrott.\n
+\n\nYhtiösi on tehnyt konkurssin.\n
+Kein Fahrzeug\nausgewählt.\n
+Kulkuneuvoa ei\nole valittu.\n
+Noch kein Fahrzeug\nfür Fahrplan\nvorhanden\n
+Valitse ensin\nkulkuneuvo.\n
+Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
+Aseta kulkuneuvolle\nensin reitti.\n
+Blockstrecke ist\nbelegt\n
+Rataosuus on toisen\njunan käytössä.\n
+Post muss neben\nHaltestelle\nliegen!\n
+Postitoimisto pitää\nrakentaa aseman tai\npysäkin lähelle.\n
+Lager muss neben\nHaltestelle\nliegen!\n
+Varasto pitää\nrakentaa aseman tai\npysäkin lähelle.\n
+Es ist ein\nObjekt im Weg!\n
+Jotain on tiellä!\n
+Hier kann kein\nBahnhof ge-\nbaut werden!\n
+Rautatieasemaa\nei voi rakentaa\ntähän.\n
+Bahnhof kann\nnur auf Schienen\ngebaut werden!\n
+Rautatieaseman\nvoi rakentaa\nvain rautateille.\n
+Die Schiene\ngehoert einem\nanderen Spieler!\n
+Rautatie on\ntoisen pelaajan\nomistuksessa.\n
+Haltestelle kann\nnur auf Schienen\ngebaut werden!\n
+Bussipysäkin\nvoi rakentaa\nvain tielle.\n
+Hier kann keine\nHaltestelle ge-\nbaut werden!\n
+Bussipysäkkiä\nei voi rakentaa\ntähän.\n
+Bruecke muss auf\nStraße beginnen!\n
+Sillan täytyy\nalkaa tiestä.\n
+Bruecke muss auf\nSchiene beginnen!\n
+Sillan täytyy\nalkaa rautatiestä.\n
+Bruecke muss an\neinfachem\nHang beginnen!\n
+Sillan täytyy\nalkaa mäestä.\n
+Bruecke muss auf\nStraße enden!\n
+Sillan täytyy\npäättyä tiehen.\n
+Bruecke muss auf\nSchiene enden!\n
+Sillan täytyy\npäättyä rautatiehen.\n
+Tunnel muss an\nStraße beginnen!\n
+Tunnelin täytyy\nalkaa tiestä.\n
+Tunnel muss an\nSchiene beginnen!\n
+Tunnelin täytyy\nalkaa rautatiestä.\n
+Tunnel muss an\neinfachem\nHang beginnen!\n
+Tunnelin täytyy\nalkaa mäestä.\n
+Tunnel muss an\nStraße enden!\n
+Tunnelin täytyy\npäättyä tiehen.\n
+Tunnel muss an\nSchiene enden!\n
+Tunnelin täytyy\npäättyä rautatiehen.\n
+Frachthof kann\nnur auf Strasse\ngebaut werden!\n
+Lastausalueen\nvoi rakentaa\nvain tielle.\n
+Hier kann kein\nFrachthof ge-\nbaut werden!\n
+Laustausaluetta\nei voi rakentaa\ntähän.\n
+Hier kann kein\nSignal aufge-\nstellt werden!\n
+Rautatieopastinta\nei voi rakentaa\ntähän.\n
+Zu nah an einem\nanderen Signal!\n
+Rautatieopastinta\nei voi rakentaa\ntähän.\n\nToinen opastin\nliian lähellä.\n
+Zu nahe an\neiner Kreuzung\noder Weiche!\n
+Rautatieopastinta\nei voi rakentaa\ntähän.\n\nRisteys tai vaihde\nliian lähellä.\n
+Hier kann kein\nBahndepot ge-\nbaut werden!\n
+Veturitallia ei voi\nrakentaa tähän.\n
+Hier kann kein\nStraßendepot ge-\nbaut werden!\n
+Autovarikkoa ei voi\nrakentaa tähän.\n
+Hier kann kein\nSchiffdepot ge-\nbaut werden!\n
+Telakkaa ei voi\nrakentaa tähän.\n
+Kann Blockstrecke\nnicht trennen.\n
+Kiskoruutua ei\nvoi halkaista.\n
+Ein Zug ist\nim Weg!\n
+Juna on tiellä.\n
+Der Besitzer erlaubt das Entfernen nicht
+Omistaja ei salli\ntehdä tätä.\n
+Fahrzeuge koennen so nicht entfernt werden
+Kulkuvälinettä ei\nvoi poistaa tällä\ntavalla.\n
+Zughalt muss auf\nSchiene liegen!\n
+Rautatieaseman\nvoi rakentaa\nvain rautateille.\n
+Autohalt muss auf\nStraße liegen!\n
+Bussipysäkin\nvoi rakentaa\nvain tielle.\n
+Schiffhalt muss im\nWasser liegen!\n
+Laivan pysähdyspaikan\nvoi asettaa vain\nveteen lähelle\nlaituria.\n
+Es wird bereits\nein Fahrplan\neingegeben\n
+Aikataulua\ntehdään parhaillaan.\nSaata se päätökseen\nennenkuin uusit sen!\n
+Ein Fahrplan\nbraucht min.\neine Station\n
+Aikataulussa täytyy\nolla ainakin yksi\npysähdyspaikka.\n
+Das Feld gehoert\neinem anderen Spieler\n
+Maa on toisen\npelaajan omistuksessa.\n 
+Spielstand wurde\ngespeichert!\n
+\nPeli tallennettu.\n
+Spielstand wurde\ngeladen!\n
+\nPeli ladattu.\n
+Bruecke muss auf\nStrassenende\nbeginnen!\n
+Sillan täytyy\nalkaa tien lopusta.\n
+Bruecke muss auf\nSchienenende\nbeginnen!\n
+Sillan täytyy\nalkaa rautatien lopusta.\n
+Kann Spielstand\nnicht laden.\n
+Tallennetun pelin\nlataus epäonnistui.\n
+Kann Spielstand\nnicht speichern.\n
+Tallennus epäonnistui.\n
+Erzeuge neue Karte.\n
+Odota, uutta karttaa\nluodaan.\n\nTämä saattaa kestää\nmuutaman minuutin\nisoilla kartoilla.\n
+Wagen im Block
+vaunua rataosuudella
+Screenshot\ngespeichert.\n
+Kuvakaappaus\ntallennettu.\n
+Zu nah am Kartenrand
+Et voi rakentaa tähän,\nsillä kartan reuna on\nliian lähellä.\n
+Ein %s\npasst hier nicht.\n
+'%s'\nei sovi tähän.\n
+Es fehlt noch ein Fahrzeug!\n
+Tarpeellinen kulkuväline\npuuttuu!\n
+Noch keine Haltestellen
+Reittiä ei ole\nvielä suunniteltu.
+There are still vehicles\nstored in this depot!\n
+Tämän tallin sisällä on\nyhä kulkuneuvoja!\n
+Wegpunkt
+Reittipiste
+Add Stop
+Lisää
+Ins Stop
+Aseta
+Del Stop
+Poista
+Fertig
+Valmis
+Fahrplan
+Reitti
+Verkauf
+Myynti
+Start
+Käynnistä
+Restwert:
+Myyntiarvo:
+miserabel
+surkea
+schlecht
+huono
+durchschnitt
+keskiverto
+gut
+hyvä
+sehr gut
+todella hyvä
+bestens
+yliverto
+excellent
+erinomainen
+spitze
+paras
+Fabrikanschluss
+Yhdist. yritys
+Tage
+päivää
+Credits
+krediittiä
+Reliefkarte
+Kartta
+Sound settings
+Ääniasetukset
+Sound
+Äänet
+Sound volume:
+Äänenvoimakkuus
+Music volume:
+Musiikin voimakkuus
+Currently playing:
+Tällä hetkellä soimassa
+Music playing disabled/not available
+Musiikin soitto pois päältä
+Abfrage
+Tutkimistyökalu
+Anheben
+Nosta maata
+Absenken
+Laske maata
+Schienenbau
+Rakenna rautatietä
+Strassenbau
+Rakenna tietä
+Wasserbau
+Rakenna laitureita
+Einstellungsfenster
+Peliasetukset
+Abriss
+Tuhoa
+Bahnhof
+Rautatieasema
+Bushaltestelle
+Bussipysäkki
+Frachthof
+Lastausalue
+Posthaus
+Postitoimisto
+Baue Lagerhaus
+Varasto
+Strassentunnel
+Tunneli
+Schienentunnel
+Tunneli
+Strassenbruecke
+Silta
+Schienenbruecke
+Silta
+tonnen
+t
+sack
+ säkkiä
+m3
+m³
+paletten
+ laatikkoa
+Abgabe
+Tuotanto
+Verbrauch
+Kulutus
+Spielerliste
+Pelaajalista
+SPIELERLISTE
+\n   sininen\n   rahaa: %.2f$\n   keltainen\n   rahaa: %.2f$\n   punainen\n   rahaa: %.2f$\n   vihreä\n   rahaa: %.2f$\n   turkoosi\n   rahaa: %.2f$\n   vaaleanpunainen\n   rahaa: %.2f$\n
+Einstellungen
+Asetukset:
+Einstellungen aendern
+Muuta asetuksia:\n
+Sprache
+Kieli
+Farbe
+Väritys
+Helligk.
+Näyttö
+Laden
+Lataa
+Speichern
+Tallenna
+Beenden
+Lopeta
+Neue Karte
+Uusi kartta
+Starte Spiel
+Aloita peli
+01_WOHN
+Pieni talo\npuutarhalla\n
+02_WOHN
+Pieni talo\npuutarhalla\n
+03_WOHN
+Pieni talo\npuutarhalla\n(tehnyt Trikky)\n
+04_WOHN
+Pieni talo\npuutarhalla\n(tehnyt Trikky)\n
+05_WOHN
+Keskikokoinen\ntalo puutarhalla\n
+06_WOHN
+Iso talo\npuutarhalla\n
+07_WOHN
+Pieni puisto\nankkalammella\n(tehnyt Trikky)\n
+08_WOHN
+Keskikokoinen\ntalo puutarhalla\n(tehnyt Trikky)\n
+09_WOHN
+Paritalo\npuutarhalla\n
+10_WOHN
+Kirkko\n(tehnyt Trikky)\n
+11_WOHN
+Kerrostalo\n(tehnyt O.S.)\n
+12_WOHN
+Tornitalo\n(tehnyt O.S.)\n
+13_WOHN
+VT-patsas\n\n Rakennettu\n muistuttamaan\n kaikkia VT\n Viennan\n suunnittelemista\n vaunuista.\n
+14_WOHN
+Pieni muistomerkki\n(tehnyt Trikky)\n
+15_WOHN
+Vanha kartano\n
+LILLY
+Lillyn muistomerkki\n
+16_WOHN
+Kerrostalo\n
+BIG_APP_TOWER
+Iso tornitalo\n(tehnyt Seth)\n
+SMALL_HOUSE
+Pieni talo\n(tehnyt Seth)\n
+A_FRAME_HOUSE
+Alppitalo\n(tehnyt Seth)\n
+MED_HOUSE
+Keskikokoinen talo\n(tehnyt Seth)\n
+SHOP1
+Pieni kauppa\n
+BUERO1
+Toimistorakennus\n
+RBUERO1
+Pieni toimistoraken-\nnus parkkihallilla\n(tehnyt Trikky)\n
+TRIKKYPARK
+Trikkyn puisto\n
+TANKE
+Huoltoasema\n
+BUERO2
+Pieni\nkauppakeskus\n
+HOCHHAUS2
+Toimistorakennus\n(tehnyt Trikky)\n
+HOCHHAUS3
+Toimistorakennus\n(tehnyt Trikky)\n
+HOCHHAUS4
+Toimistotorni\n(tehnyt Trikky)\n
+WOHNSHOP1
+Kerrostalo, alaker-\nrassa muutama liike\n
+BANK
+Drive in -pankki\n(tehnyt Seth)\n
+BARCELONA_GRAND
+Barcelonan\nsuurhotelli\n(tehnyt Wefer)\n
+CHEMIST
+Apteekki\n(tehnyt Seth)\n
+CINEMA
+Vanha elokuvateatteri\n(tehnyt Seth)\n
+INSURANCE
+Vakuutustoimistoja\n(tehnyt Trikky)\n
+MODERN_OFFICES
+Nykyaikainen toimisto-\nrakennus (tehnyt Trikky)\n
+IMPRESSIVE_OFFICES
+Vaikuttava toimisto-\nrakennus (tehnyt Trikky)\n
+TALL_MOB
+Korkea nykyaikainen\ntoimistorakennus (tehnyt Trikky)\n
+01_FAB
+Varastorakennus\n
+02_FAB
+Varastosiiloja\n
+03_FAB
+Öljysäiliö\n
+04_FAB
+Tehdasrakennus\n
+05_FAB
+Nestesäiliö\n
+06_FAB
+Iso tehdas\n
+07_FAB
+Tehdasrakennus\n
+08_FAB
+Työkalutehdas\n(tehnyt Seth)\n
+MACHINE_FACTORY
+Vanha konetehdas\n(tehnyt O.S)\n
+TRIKKY_POTTERY
+Savivalamo\n(tehnyt Trikky)\n
+TRIKKY_FACTORY
+Metallipaja\n(tehnyt Trikky)\n
+01_CITY
+Kaupungintalo\n
+A1_ALTE_KIRCHE
+\n Kuuluisa vanha\n kirkko. Jokaisen\n pitäisi nähdä\n tämä hieno\n rakennus.\n
+A2_SCHLOSS1
+\n Hassun kuninkaan\n linna.\n Tämä on todella\n näkemisen arvoinen!\n
+A3_BURG1
+\n Vanhoja raunioita\n jotka kertovat\n paremmista ajoista.\n Ne ovat aina\n katsomisen arvoisia.\n
+A4_SCHLOSS2
+\n Tämä vanha\n linna on aina\n näkemisen arvoinen.\n
+A5_STONEHENGE
+\n Muinainen kivimuo-\n dostelma. Hyvin\n salaperäistä!\n
+A6_DOME
+\n Tämä kaunis vanha\n kirkko on todelli-\n nen nähtävyys.\n
+STADIUM
+Stadion
+17_WOHN
+Vanhantyylisiä\nhuoneistoja ja kauppoja\n(tehnyt O.S.)\n
+18_WOHN
+Asumustorni\n(tehnyt Wefer)\n
+1_BRICK_HOUSE
+Tiilitalo\n(tehnyt Seth)\n
+MODERN_HOUSE
+Hienostotalo\n(tehnyt Seth)\n
+WATER_CISTERN
+Vesisäiliö\n(tehnyt Seth)\n
+SMALL_FACTORY
+Pieni tehdas\n(tehnyt Seth)\n
+MEDIUM_OFFICE
+Keskikokoinen toimistokortteli\npysäköintialueineen (tehnyt Seth/HjM)\n
+TALL_OFFICE
+Korkea toimistokortteli\n(tehnyt Seth)\n
+2_MEDIUM_OFFICE
+Keskikokoinen toimistokortteli\n(tehnyt Seth)\n
+CEMENT_MILL
+Sementtitehdas\n(tehnyt Seth)\n
+SHEET_METAL
+Metallilevyvalmistamo\n(tehnyt Seth)\n
+SMALL_APS
+Pieniä huoneistoja\n(tehnyt Trikky)\n
+SMALL_FLATS
+Pieni kerrostalokortteli\n(tehnyt Trikky)\n
+SMALL_LUXURY
+Pieniä ylellishuoneistoja\n(tehnyt Trikky)\n
+LARGE_LUXURY
+Suuri ylellistalo\n(tehnyt Trikky)\n
+LARGE_OFFICE
+Suuri toimistorakennus\n(tehnyt Trikky)\n
+2_LARGE_OFFICE
+Suuri moderni\ntoimistorakennus\n(tehnyt Trikky)\n
+2_MODERN_OFFICES
+Moderni toimistorakennus\n(tehnyt Trikky)\n
+1_DET_HOUSE
+Suuri rivitalo\n(tehnyt O.S.)\n
+FOUNTAIN
+Suihkulähde\n(tehnyt Trikky)\n
+ANIM_CINEMA
+Elokuvateatteri\n(tehnyt Trikky)\n
+Neue Welt
+Luo uusi maailma
+Keine Info.
+Ei tietoja.
+q1
+Kevät
+q2
+Kesä
+q3
+Syksy
+q4
+Talvi
+Lokomotive_tab
+Veturit
+Waggon_tab
+Vaunut
+LKW_tab
+Rekat
+Anhaenger_tab
+Perävaunut
+Schiff_tab
+Laivat
+Schleppkahn_tab
+Poijut
+WRONGSAVE
+Tallennetun pelin versio\n ei ole yhteensopiva.\nLataus ei onnistu.\n
+Postschiff
+Postialus
+Verkehrsteilnehmer
+Henkilöauto
+Moebel
+huonekaluja
+Halt list
+Pysäkkilista
+Fahrzeuge
+Kulkuneuvot
+Finanzen
+Talous
+Filename
+Tiedosto:
+Brueckenbau
+Rakenna siltoja
+no goods waiting
+ei tavaroita odottamassa
+!0_STATION_CROWDED
+%s is crowded.
+waiting
+odottamassa

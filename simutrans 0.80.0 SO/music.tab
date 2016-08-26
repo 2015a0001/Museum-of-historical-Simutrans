@@ -1,0 +1,13 @@
+# music.tab
+# Simutrans music configuration file
+# by Owen Rudge, 9th April 2001
+#
+# max. 30 entries allowed!!!
+#
+music/jazz.mid
+Jazz
+music/gmstriving.mid
+Striving
+music/bohemian.mid
+Bohemian Rhapsody
+# END OF FILE

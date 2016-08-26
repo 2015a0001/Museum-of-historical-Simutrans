@@ -1,0 +1,949 @@
+Deutsch
+WRONGSAVE
+Inkompatible Spielstands-\nversion. Das Spiel kann\nnicht geladen werden.\n
+GAME PAUSED
+SPIEL ANGEHALTEN
+BF
+BF
+H
+H
+Dock
+Kai
+1center
+%s %s
+2center
+%s Haupt %s
+3center
+%s Zentral %s
+4center
+%s %s Mitte
+5center
+%s Transfer %s
+1nord
+%s Nord %s
+1nordost
+%s NO %s
+1ost
+%s Ost %s
+1suedost
+%s SO %s
+1sued
+%s Süd %s
+1suedwest
+%s SW %s
+1west
+%s West %s
+1nordwest
+%s NW %s
+1extern
+%s Zweig %s
+2extern
+%s Neben %s
+3extern
+%s Land %s
+4extern
+%s Außen %s
+%1_CITY_SYLL
+Kalten
+%2_CITY_SYLL
+Friedrichs
+%3_CITY_SYLL
+Bo
+%4_CITY_SYLL
+Michel
+%5_CITY_SYLL
+Tuna
+%6_CITY_SYLL
+Karls
+%7_CITY_SYLL
+Frei
+%8_CITY_SYLL
+Alten
+%9_CITY_SYLL
+Neu
+%A_CITY_SYLL
+Steinen
+%B_CITY_SYLL
+Rast
+&1_CITY_SYLL
+stadt
+&2_CITY_SYLL
+dorf
+&3_CITY_SYLL
+bruck
+&4_CITY_SYLL
+bronn
+&5_CITY_SYLL
+berg
+&6_CITY_SYLL
+tal
+&7_CITY_SYLL
+weiler
+&8_CITY_SYLL
+hausen
+&9_CITY_SYLL
+steig
+&A_CITY_SYLL
+brigg
+RAILTOOLS
+Eisenbahn
+ROADTOOLS
+Straßenbau
+SHIPTOOLS
+Dock/Kai
+BRIDGETOOLS
+Brückenbau
+LANG_CHOOSE\n
+Bitte wählen Sie\nIhre Sprache:\n
+COLOR_CHOOSE\n
+Bitte wählen Sie\nIhre Kennfarbe\ndurch Anklicken:\n
+1LIGHT_CHOOSE
+Helligkeit:
+2LIGHT_CHOOSE
+Farbigkeit:
+3LIGHT_CHOOSE
+Scrollgeschw.:
+4LIGHT_CHOOSE
+Inverses Scrolling
+5LIGHT_CHOOSE
+Fußgänger anzeigen
+Fahrzeugliste
+Fahrzeugliste
+no goods waiting
+keine wartenden Güter
+waiting
+warten
+Halt list
+Haltestellenliste
+1WORLD_CHOOSE
+Einstellungen für neue Karte:
+2WORLD_CHOOSE
+Kartennummer:
+3WORLD_CHOOSE
+Kartengröße:
+4WORLD_CHOOSE
+Industriedichte:
+5WORLD_CHOOSE
+Anzahl Städte:
+6WORLD_CHOOSE
+Verkehrsdichte:
+7WORLD_CHOOSE
+Fußgänger anzeigen
+8WORLD_CHOOSE
+Tag und Nacht wechseln
+Random map
+Zufallskarte
+Water level
+Grundwasser
+Mountain height
+Bergigkeit
+Cancel
+Abbrechen
+Ok
+Ok
+Filename
+Dateiname:
+Finances
+Finanzen
+Construction:
+Ausgaben für Bau:
+New Vehicles:
+Neue Fahrzeuge:
+Vehicle Running Costs:
+Betriebskosten:
+Income:
+Gewinn:
+Total:
+Gesamt:
+Balance:
+Kontostand:
+Last Year
+Letztes Jahr:
+This Year
+Dieses Jahr:
+LOCO_INFO
+%s\nPreis   : %d$ (%1.2f$/km)\nLeistung: %dKW, %dkm/h\nGewicht : %dt\nZuladung: %d%s %s\n
+WAGGON_INFO
+%s\nPreis   : %d$ (%1.2f$/km)\nZuladung: %d%s %s\nGewicht : %dt\n
+Helligk. u. Farben
+Anzeige:
+1Diesellokomotive
+H-Trans BR212 (Diesel)
+2Diesellokomotive
+H-Trans BR218 (Diesel)
+3Diesellokomotive
+H-Trans BR365 (Diesel)
+1Dampflokomotive
+H-Trans 0-4-0T (Dampf)
+2Dampflokomotive
+H-Trans 4-6-0 (Dampf)
+1Ellok
+H-Trans BR103 (Elektrisch)
+2Ellok
+H-Trans Tiger I (Elektrisch)
+1TPEllok
+TPI F7A (Diesel)
+1Schienenbus
+H-Trans/TPI VT95 Schienenbus (DMU)
+Beiwagen
+H-Trans/TPI VB95 Beiwagen (DMU)
+TPSchienenbus
+TPI VT98 Schienenbus (DMU)
+TPBeiwagen
+TPI VB98 Beiwagen (DMU)
+Passagierwagen
+H-Trans Passagierwagen
+TPPassagierwagen
+TPI Lopomo Passagierwagen
+S220_LOK1
+TPI S220 Motorwagen (EMU)
+S220_CAR
+TPI S220 Passagierwagen (EMU)
+S220_LOK2
+TPI S220 Steuerwagen (EMU)
+DM8_LOK1
+TPI Dm8 Motorwagen (DMU)
+DM8_CAR
+TPI Dm8 Passagierwagen (DMU)
+DM8_LOK2
+TPI Dm8 Steuerwagen (DMU)
+Postwagen
+H-Trans Post-/Gepäckwagen
+Erzwagen
+H-Trans Güterwagen Erz
+Kohlewagen
+H-Trans Güterwagen Kohle
+Holzwagen
+H-Trans Rungenwagen Holz
+Oelwagen
+VT Wien Kesselwagen Öl
+Stahlwagen
+VT Wien Güterwagen Stahl
+Staubkesselwagen
+VT Wien Staubkesselwagen
+Moebelwagen
+VT Wien Möbelwagen
+Autotransportwagen
+TPI Lopomo Autotransporter
+Papierwagen
+VT Wien Papierrollenwagen
+Buchwagen
+VT Wien Bücherwagen
+Bretterwagen
+VT Wien Rungenwagen Bretter
+2TPEllok
+TPI Class 86/2 (elektrisch)
+TENDER
+TPI Tender
+TPDiesel
+TPI Class 26 (diesel)
+Autotransporter
+H-Trans Autotransporter
+Moebeltransporter
+WF Ultd. Möbeltransporter
+Brettertransporter
+WF Ultd. Brettertransporter
+Bus
+H-Trans Bus
+Li6
+Serj LiAZ-677
+Ik26
+Serj Ikarus-260
+Serj-Mini
+Serj Maxi-Taxi
+Posttransporter
+H-Trans Posttransporter
+HVPosttransporter
+DIBU/H-Trans Posttransporter
+Holztransporter
+H-Trans Holztransporter
+Erztransporter
+H-Trans Erztransporter
+Kohletransporter
+H-Trans Kohletransporter
+Tanklastzug
+H-Trans Tanklastzug
+Kunststofftransporter
+H-Trans Kunststofftransporter
+Stahltransporter
+H-Trans Stahltransporter
+Papiertransporter
+Trikky Papiertransporter
+Buchtransporter
+Serj/H-Trans Buchtransporter
+Erzanhaenger
+H-Trans Erzanhänger
+Oelanhaenger
+H-Trans Tankanhänger (Öl)
+Holzanhaenger
+JET Langholzanhänger
+Möbelanhaenger
+WF Ultd. Möbelanhänger
+SlowFerry
+H-Trans Passagierfähre
+FastFerry
+O.Bang Schnelle Passgierfähre
+Oeltankschiff
+TPI Lopomo Öltanker
+Postschiff
+Postboot
+Holzschiff
+TPI/JET Holzfrachter
+Kohleschiff
+WF Ultd. Kohlefrachter
+Furniture truck
+WF Ultd. Möbelwagen
+Sand truck
+WF Ultd. Sandlaster
+Stone truck
+WF Ultd. Steintransporter
+Cement truck
+WF Ultd. Zementkipper
+Concrete mix truck
+WF Ultd. Betonmischer
+Furniture waggon
+WF Ultd. Möbel waggon
+Sand waggon
+WF Ultd. Sand waggon
+Stone waggon
+WF Ultd. Stein waggon
+Cement waggon
+WF Ultd. Zementwagen
+Concrete mix waggon
+WF Ultd. Betonmischwagen
+Eigenbesitz\n
+Öffentl. Eigentum\n
+Privatbesitz\n
+Privateigentum\n
+Spieler
+Spieler
+Spieler(mz)
+Spieler
+Lok/Waggon
+Lok/Waggon
+Automobil
+Automobil
+Fussgaenger
+Fußgänger
+Baum
+Baum
+Bruecke
+Brücke
+Tunnelmuendung
+Tunnelmündung
+Gebaeude
+Gebäude
+Gebäude
+Gebäude
+Haus
+Haus
+Wolke
+Wolke
+Lagerhaus
+Lagerhaus
+Schiene
+Schiene
+Strasse
+Straße
+Wasser
+Wasser/Meer
+Boden
+Land
+Tage alt
+Tage alt
+Baustelle
+Baustelle
+Alter
+Alter
+Wert
+Wert
+Level
+Stufe
+Haltestelle
+Haltestelle
+Hier warten/lagern:
+Wartende Passagiere/Güter:
+   via %s\n
+ via %s\n
+Angenommene Waren
+Angenommene Waren
+Direkt erreichbare Haltestellen
+Verkehrsverbindungen (direkt)
+Stadtinformation
+Stadtinformation
+Einwohner
+Einwohner
+Passagierziele
+Passagier-/Postziele
+letzen Monat: diesen Monat:
+letzen Monat: diesen Monat:
+Kohle
+Kohle
+Bücher
+Bücher
+Eisenerz
+Eisenerz
+Stahl
+Stahl
+Passagiere
+Passagiere
+Passagierrate
+Passagiere
+Pass.
+Pass.
+Post
+Post
+Holz
+Holz
+Bretter
+Bretter
+Oel
+Öl
+Plastik
+Kunststoffe
+Autos
+Autos
+Moebel
+Möbel
+Papier
+Papier
+LKW
+LKW
+Zug
+Zug
+Fracht
+Fracht
+Gewinn
+Gewinn
+Leistung
+Leistung
+Gewicht
+Gewicht
+Nutzwald
+Nutzwald
+Sägewerk
+Sägewerk
+Erzbergwerk
+Erzbergwerk
+Kohlegrube
+Kohlegrube
+Stahlwerk
+Stahlwerk
+Oelfeld
+Ölfeld
+Oelbohrinsel
+Ölbohrinsel
+Raffinerie
+Raffinerie
+Autohersteller
+Autohersteller
+Autohaus
+Autohaus
+Kohlekraftwerk
+Kohlekraftwerk
+Papierfabrik
+Papierfabrik
+Druckerei
+Druckerei
+Möbelfabrik
+Möbelfabrik
+Buchgrosshandel
+Buchgroßhandel
+Moebelhaus
+Möbelhaus
+Furniture
+Möbel
+Sand
+Sand
+Stone
+Stein
+Cement
+Zement
+Concrete
+Beton
+Furniture factory
+Möbelfabrik
+Home Market
+Möbelhaus
+Sand quarry
+Sandgrube
+Stone quarry
+Steinbruch
+Cement mill
+Zementfabrik
+Concrete factory
+Betonfabrik
+Material wholesale
+Baumarkt
+Durchsatz
+Max. Prod.
+Produktion
+Produktion
+Verbrauch
+Verbrauch
+Power
+Strom
+strong
+stark
+good
+gut
+weak
+schwach
+fail
+ausgefallen
+Leitung
+Stromleitung
+Abnehmer
+Abnehmer
+Arbeiter aus:
+Arbeiter aus:
+bei
+bei
+leer
+leer
+nichts
+nichts
+keine
+keine
+Details
+Details
+Meldung
+Meldung
+Strassendepot
+Straßendepot
+Bahndepot
+Bahndepot
+Schiffdepot
+Schiffdepot
+!0_STATION_CROWDED
+%s ist überfüllt.
+Verschuldet:\n\nDu hast %d Monate Zeit,\ndie Schulden zurueckzuzahlen.\n
+Verschuldet:\n\nDu hast %d Monate Zeit,\ndie Schulden zurück-\nzuzahlen.\n
+Verschuldet:\n\nDenk daran, rechtzeitig\ndie Schulden zurueckzuzahlen.\n
+Verschuldet:\n\nDenk daran, rechtzeitig\ndie Schulden zurück-\nzuzahlen.\n
+Bankrott:\n\nDu bist bankrott.\n
+Bankrott:\n\nDu bist bankrott.\n
+Kein Fahrzeug\nausgewählt.\n
+Kein Fahrzeug\nausgewählt.\n
+Noch kein Fahrzeug\nfür Fahrplan\nvorhanden\n
+Noch kein Fahrzeug\nfür Fahrplan\nvorhanden!\n
+Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
+Noch kein Fahrplan\nvorhanden!\n
+Blockstrecke ist\nbelegt\n
+Blockstrecke ist\nbelegt\n
+Post muss neben\nHaltestelle\nliegen!\n
+Post muss neben\nHaltestelle\nliegen!\n
+Lager muss neben\nHaltestelle\nliegen!\n
+Eine Lagerhalle\nkann nur neben\neiner Haltestelle\ngebaut werden!\n
+Es ist ein\nObjekt im Weg!\n
+Es ist etwas\nim Weg!\n
+Hier kann kein\nBahnhof ge-\nbaut werden!\n
+Hier kann kein\nBahnhof ge-\nbaut werden!\n
+Bahnhof kann\nnur auf Schienen\ngebaut werden!\n
+Ein Bahnhof kann\nnur auf Schienen\ngebaut werden!\n
+Die Schiene\ngehoert einem\nanderen Spieler!\n
+Das Gleis\ngehört einem\nanderen Spieler!\n
+Haltestelle kann\nnur auf Schienen\ngebaut werden!\n
+Eine Haltestelle\nkann nur auf\neiner Straße\ngebaut werden!\n
+Hier kann keine\nHaltestelle ge-\nbaut werden!\n
+Hier kann keine\nHaltestelle ge-\nbaut werden!\n
+Bruecke muss auf\nStraße beginnen!\n
+Die Brücke muss\nauf einer Straße\nbeginnen!\n
+Bruecke muss auf\nSchiene beginnen!\n
+Die Brücke muss\nauf einem Gleis\nbeginnen!\n
+Bruecke muss auf\nStraße enden!\n
+Die Brücke muss\nauf einer Straße\nenden!\n
+Bruecke muss an\neinfachem\nHang beginnen!\n
+Die Brücke muss an\neinem geraden\nHang beginnen!\n
+Bruecke muss auf\nSchiene enden!\n
+Die Brücke muss\nauf einem Gleis\nenden!\n
+Tunnel muss an\nStraße beginnen!\n
+Der Tunnel muss\nan einer Straße\nbeginnen!\n
+Tunnel muss an\nSchiene beginnen!\n
+Der Tunnel muss\nan einem Gleis\nbeginnen!\n
+Tunnel muss an\neinfachem\nHang beginnen!\n
+Der Tunnel muss an\neinem geraden\nHang beginnen!\n
+Tunnel muss an\nStraße enden!\n
+Der Tunnel muss\nan einer Straße\nenden!\n
+Tunnel muss an\nSchiene enden!\n
+Der Tunnel muss\nan einem Gleis\nenden!\n
+Frachthof kann\nnur auf Strasse\ngebaut werden!\n
+Ein Frachthof\nkann nur auf\neiner Straße\ngebaut werden!\n
+Hier kann kein\nFrachthof ge-\nbaut werden!\n
+Hier kann kein\nFrachthof ge-\nbaut werden!\n
+Hier kann kein\nSignal aufge-\nstellt werden!\n
+Hier kann kein\nSignal aufge-\nstellt werden!\n
+Zu nah an einem\nanderen Signal!\n
+Hier kann kein\nSignal aufge-\nstellt werden.\nZu nah an einem\nanderen Signal!\n
+Zu nahe an\neiner Kreuzung\noder Weiche!\n
+Hier kann kein\nSignal aufge-\nstellt werden.\nZu nah an\neiner Kreuzung\noder Weiche!\n
+Hier kann kein\nBahndepot ge-\nbaut werden!\n
+Hier kann kein\nBahndepot ge-\nbaut werden!\n
+Hier kann kein\nStraßendepot ge-\nbaut werden!\n
+Hier kann kein\nStraßendepot ge-\nbaut werden!\n
+Hier kann kein\nSchiffdepot ge-\nbaut werden!\n
+Hier kann kein\nSchiffdepot ge-\nbaut werden!\n
+Kann Blockstrecke\nnicht trennen.\n
+Kann Blockstrecke\nnicht trennen.\n
+Ein Zug ist\nim Weg!\n
+Ein Zug ist\nim Weg!\n
+Der Besitzer erlaubt das Entfernen nicht
+Der Besitzer\nerlaubt das\nEntfernen nicht.\n
+Fahrzeuge koennen so nicht entfernt werden
+Fahrzeuge können so\nnicht entfernt werden.\n
+Zughalt muss auf\nSchiene liegen!\n
+Zughalt muss auf\nSchiene liegen!\n
+Autohalt muss auf\nStraße liegen!\n
+Autohalt muss auf\nStraße liegen!\n
+Schiffhalt muss im\nWasser liegen!\n
+Schiffhalt muss im\nWasser liegen!\n
+Es wird bereits\nein Fahrplan\neingegeben\n
+Es wird bereits\nein Fahrplan\neingegeben!\n
+Ein Fahrplan\nbraucht min.\neine Station\n
+Ein Fahrplan\nbraucht min.\neine Station!\n
+Das Feld gehoert\neinem anderen Spieler\n
+Das Grundstück\ngehört einem\nanderen Spieler!\n
+Spielstand wurde\ngespeichert!\n
+Spielstand wurde\ngespeichert!\n
+Spielstand wurde\ngeladen!\n
+Spielstand wurde\ngeladen!\n
+Bruecke muss auf\nStrassenende\nbeginnen!\n
+Die Brücke muss\n auf einem Straßen-\nende beginnen!\n
+Bruecke muss auf\nSchienenende\nbeginnen!\n
+Die Brücke muss\n auf einem Schienen-\nende beginnen!\n
+Kann Spielstand\nnicht laden.\n
+Kann Spielstand\nnicht laden!\n
+Kann Spielstand\nnicht speichern.\n
+Kann Spielstand\nnicht speichern!\n
+Erzeuge neue Karte.\n
+Bitte warten,\nerzeuge neue\nKarte...\n\n (Kann bei großen\n Karten ein paar\n Minuten dauern.)\n
+Wagen im Block
+Wagen in Blockstrecke
+Screenshot\ngespeichert.\n
+Screenshot\ngespeichert.\n
+Zu nah am Kartenrand
+Zu nah am Kartenrand,\num etwas zu bauen.\n
+Ein %s\npasst hier nicht.\n
+Ein '%s'\npaßt hier nicht.\n
+Es fehlt noch ein Fahrzeug!\n
+Es fehlt noch ein Fahrzeug!\n
+Noch keine Haltestellen
+Noch keine Haltestellen.
+There are still vehicles\nstored in this depot!\n
+Es sind noch Fahrzeuge\nin diesem Depot!\n
+Music playing disabled/not available
+Musik nicht verfügbar/abgeschaltet
+Wegpunkt
+freier Wegpunkt
+Add Stop
+Hinzufüg.
+Ins Stop
+Einfügen
+Del Stop
+ Löschen
+Fertig
+Fertig
+Fahrplan
+Fahrplan
+Full load
+Warten auf:
+Verkauf
+Verkauf
+Start
+Start
+Restwert:
+Verkaufswert:
+miserabel
+miserabel
+schlecht
+schlecht
+durchschnitt
+durchschnitt
+gut
+gut
+sehr gut
+sehr gut
+bestens
+bestens
+excellent
+exzellent
+spitze
+spitze
+Fabrikanschluss
+Angeschl. Fabriken
+Tage
+Tage
+Credits
+Credits
+Reliefkarte
+Reliefkarte
+Sound settings
+Soundeinstellungen
+Sound
+Sound
+Sound volume:
+Klanglautstärke:
+Music volume:
+Musiklautstärke:
+Abfrage
+Abfragewerkzeug
+Anheben
+Land anheben
+Absenken
+Land absenken
+Schienenbau
+Schienen bauen
+Strassenbau
+Straße bauen
+Einstellungsfenster
+Einstellungen ändern
+Wasserbau
+Dock/Hafen bauen
+Abriss
+Abrisswerkzeug
+Pause
+Pause
+Fahrzeuge
+Fahrzeugübersicht
+Finanzen
+Finanzen
+Bahnhof
+Bahnhof bauen
+Bushaltestelle
+Bushaltestelle bauen
+Frachthof
+Frachthof bauen
+Posthaus
+Post bauen
+Baue Lagerhaus
+Lagerhaus bauen
+Strassentunnel
+Straßentunnel bauen
+Schienentunnel
+Schienentunnel bauen
+Strassenbruecke
+Straßenbrücke bauen
+Schienenbruecke
+Schienenbrücke bauen
+Brueckenbau
+Brücke bauen
+tonnen
+t
+sack
+ Sack
+m3
+m³
+paletten
+ Paletten
+Abgabe
+Abgabe
+Verbrauch
+Verbrauch
+Spielerliste
+Spielerliste
+SPIELERLISTE
+\n   Blau . . . %.2f$\n\n   Gelb . . . %.2f$\n\n   Rot . . . . %.2f$\n\n   Grün . . . %.2f$\n\n   Türkis . . %.2f$\n\n   Violett .  %.2f$\n
+Einstellungen
+Einstellungen:
+Einstellungen aendern
+Einstellungen\nändern:\n
+Sprache
+Sprache
+Farbe
+Spielerfarbe
+Helligk.
+Anzeige
+Laden
+Laden
+Speichern
+Speichern
+Beenden
+Beenden
+Neue Karte
+Neue Karte
+Starte Spiel
+Starte Spiel
+01_WOHN
+Kleines Haus\nmit Garten\n
+02_WOHN
+Kleines Haus\nmit Garten\n
+03_WOHN
+Kleines Haus\nmit Garten\n(von Trikky)\n
+04_WOHN
+Kleines Haus\nmit Garten\n(von Trikky)\n
+05_WOHN
+Mehrfamilienhaus\nmit Garten\n
+06_WOHN
+Großes\nMehrfamilienhaus\nmit Garten\n
+07_WOHN
+Kleiner Park\nmit Ententeich\n(von Trikky)\n
+08_WOHN
+Mittleres Haus\nmit Garten\n(von Trikky)\n
+09_WOHN
+Doppelhaus\nmit Garten\n
+10_WOHN
+Kirche\n(von Trikky)\n
+11_WOHN
+Etagenwohnungen\n(von O.S.)\n
+12_WOHN
+Hochhaus mit\nEtagenwohnungen\n(von O.S.)\n
+13_WOHN
+VT-Denkmal\n\n Gestiftet zur\n Erinnerung\n an die un-\n vergessenen\n Wagenbauer\n der VT Wien.\n
+14_WOHN
+Denkmal\n(von Trikky)\n
+15_WOHN
+Alte Villa\n
+LILLY
+Lilly Denkmal\n
+16_WOHN
+Hochhaus\n
+BIG_APP_TOWER
+Großes Hochhaus\nmit Wohnungen\n(von Seth)\n
+SMALL_HOUSE
+Kleines Haus\n(von Seth)\n
+A_FRAME_HOUSE
+Nurdachhaus\n(von Seth)\n
+MED_HOUSE
+Mittleres Haus\n(von Seth)\n
+SHOP1
+Kleiner Laden\n
+BUERO1
+Büroblock\n
+RBUERO1
+Büroblock\nmit Parkplatz\n(von Trikky)\n
+TRIKKYPARK
+Trikkys Park\n
+TANKE
+Tankstelle\n
+BUERO2
+Einkausfszentrum\n
+HOCHHAUS2
+Büroblock\n(von Trikky)\n
+HOCHHAUS3
+Büroblock\n(von Trikky)\n
+HOCHHAUS4
+Büroturm\n(von Trikky)\n
+WOHNSHOP1
+Wohn- und\nGeschäftshaus\n
+BANK
+Bank\n(von Seth)\n
+BARCELONA_GRAND
+Barcelona\nGrand Hotel\n(von Wefer)\n
+CHEMIST
+Apotheke\n(von Seth)\n
+CINEMA
+Altes Kino\n(von Seth)\n
+INSURANCE
+Versicherungsbüros\n(von Trikky)\n
+MODERN_OFFICES
+Moderner Büroblock\n(von Trikky)\n
+IMPRESSIVE_OFFICES
+Beeindruckender\nBüroblock\n(von Trikky)\n
+TALL_MOB
+Modernes Bürohochhaus\n(von Trikky)\n
+01_FAB
+Lagerhalle\n
+02_FAB
+Lagerschuppen\n
+03_FAB
+Tanklager\n
+04_FAB
+Werkshalle\n
+05_FAB
+Tanklager\n
+06_FAB
+Fabrik\n
+07_FAB
+Werkshalle\n
+08_FAB
+Werkzeugfabrik\n(von Seth)\n
+MACHINE_FACTORY
+Alte Maschinen-\nfabrik (von O.S)\n
+TRIKKY_POTTERY
+Töpferei\n(von Trikky)\n
+TRIKKY_FACTORY
+Metallverarbeitende\nFabrik\n(von Trikky)\n
+01_CITY
+Rathaus\n
+A1_ALTE_KIRCHE
+\n Eine berühmte\n alte Kirche, die\n jeder einmal\n gesehen haben\n sollte.\n
+A2_SCHLOSS1
+\n Das Schloß des\n verrückten Königs.\n Eine großartige\n Sehenswürdigkeit!\n
+A3_BURG1
+\n Eine Ruine, die\n schon bessere\n Zeiten gesehen hat.\n Sie ist immer einen\n Ausflug wert.\n
+A4_SCHLOSS2
+\n Dieser alte\n Herrensitz\n ist ein wunder-\n bares Ausflugs-\n ziel.\n
+A5_STONEHENGE
+\n Ein geheimnis-\n voller Ring aus\n Steinblöcken,\n uralt und voller\n Mythen.\n
+A6_DOME
+\n Dieser wunder-\n schöne alte Dom\n ist eine echte\n Sehenswürdigkeit.\n
+STADIUM
+\n Stadion\n
+DRIVEINCINEMA
+\n Autokino\n
+17_WOHN
+Wohnungen alten\nStils und\nLäden (von O.S.)\n
+18_WOHN
+Hochhaus mit\nWohnungen (von Wefer)\n
+1_BRICK_HOUSE
+Ziegelhaus mit\nWohnungen (von Seth)\n
+MODERN_HOUSE
+Modernes Haus\n(von Seth)\n
+WATER_CISTERN
+Wasserspeicher\n(von Seth)\n
+SMALL_FACTORY
+Kleine Fabrik\n(von Seth)\n
+MEDIUM_OFFICE
+Büroblock mit\nParkplätzen\n(von Seth/HjM)\n
+TALL_OFFICE
+Hoher Büroblock\n(von Seth)\n
+2_MEDIUM_OFFICE
+Mittlerer Büro-\nblock (von Seth)\n
+CEMENT_MILL
+Zementwerk\n(von Seth)\n
+SHEET_METAL
+Blechfabrik\n(von Seth)\n
+SMALL_APS
+Kleine Appartements\n(von Trikky)\n
+SMALL_FLATS
+Kleiner Wohnblock\n(von Trikky)\n
+SMALL_LUXURY
+Kleine, luxuriöse\nAppartments (von Trikky)\n
+LARGE_LUXURY
+Große, luxuriöse\nAppartments (von Trikky)\n
+LARGE_OFFICE
+Großes Büro-\ngebäude (von Trikky)\n
+2_LARGE_OFFICE
+Großes, modernes\nBürogebäude\n(von Trikky)\n
+2_MODERN_OFFICES
+Modernes Büro-\ngebäude (von Trikky)\n
+1_DET_HOUSE
+Großes Einzel-\nhaus (von O.S.)\n
+FOUNTAIN
+Springbrunnen\n(von Trikky)\n
+ANIM_CINEMA
+Großes Kino\n(von Trikky)\n
+Neue Welt
+Eine Neue Welt
+Keine Info.
+Keine Info.
+q1
+Frühj.
+q2
+Sommer
+q3
+Herbst
+q4
+Winter
+Lokomotive_tab
+Loks
+Waggon_tab
+Waggons
+LKW_tab
+LKW
+Anhaenger_tab
+Anhänger
+Schiff_tab
+Schiffe
+Schleppkahn_tab
+Schleppk.

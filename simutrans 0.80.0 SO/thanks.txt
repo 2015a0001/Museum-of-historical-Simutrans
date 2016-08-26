@@ -1,0 +1,149 @@
+Many people helped me with various contributions to Simutrans.
+This file lists all contributors to Simutrans.
+
+
+
+Additional programming:
+
+* Andreas Röver: small patches
+andreas_roever@yahoo.com
+
+* Niels Roest: Many additional UI routines
+npr@hetnet.nl
+
+* Pasi Ruhanen: Help with BeOS port
+duck@neutech.fi
+
+* Tillman Raatz: Bugfixes for vehicle movement code
+mrtlee@gmx.de
+
+* Markus Weber
+preml@gmx.net: Additional UI coding
+                 
+* Owen Rudge: MIDI playing routines for Windows version
+              Finance window
+              Command line arguments for reading custom daten.pak files
+              many small patches
+owen@osplus.co.uk
+
+* Volker Meyer: Better bridges and tunnels
+                Rewrites of many data structures
+                Binary save game format
+volker.meyer@syseca.de
+
+
+
+
+Help with assembler coding:
+
+* Frans van Nispen
+xlr8@tref.nl
+
+
+
+Help with game design:
+
+* Peter J. Dobrovka
+dobrovka@t-online.de
+
+
+
+Additional artwork:
+
+* Flor Wauters: trucks, trains cars, industries
+Artist trademark (vehicles): WF Ultd.
+flor.wauters@pandora.be
+
+* Jens Emmel: ships, trucks
+Artist trademark (vehicles): JET
+jens.emmel@hansenet.de                                
+
+* Manfred Tomaschitz: train waggons
+Artist trademark (vehicles): VT Vienna
+manfredtomaschitz@netscape.net
+
+* Oskari Saarekas: locomotives, waggons, ships and buildings
+Artist trademark (vehicles): TPI
+lopomo@mbnet.fi
+
+* Peter J. Dobrovka: buildings, some trees
+dobrovka@t-online.de
+
+* Rick McGreal: town buildings and factories
+Artist trademark (vehicles): Trikky
+trikky@mynock.com
+
+* Sergiu Croitor: busses and trucks
+Artist trademark (vehicles): Serj
+sheff.cib@usa.net
+
+* Seth C. Triggs: town buildings and factories
+sethtriggs@yahoo.com
+           
+* Dirk Burkholz: cars and ships
+Artist trademark (vehicles): DIBU
+dirk@burkholz.de
+
+* Tuomas Suikkanen: Bookshop image
+tsuippa@yahoo.com
+
+* Daniel Töpel: Improved powerline images, transformer station image
+toepel@talknet.de
+
+* Marcal Guardiola: town buildings
+margs@retemail.es
+
+
+Translation:
+
+* George Dragon: Hungarian translation
+dragon@idg.hu
+
+* Marcal Guardiola: Spanish translation
+margs@retemail.es
+
+* Niels Roest: Dutch translation
+npr@hetnet.nl
+
+* Rémi Denis-Courmont: French translation
+rdenis@multimania.com
+
+* Pasi Ruhanen: Finnish translation
+duck@neutech.fi
+
+* Bram Schoenmakers: Dutch translation
+bram@schnmkrs.myweb.nl
+
+
+
+User manual and Documentation:
+
+* Henrik Wolff: User manual extensions
+eMail@Henrik-Wolff.de
+
+* Seth C. Triggs: Maintaining the bug list
+sethtriggs@yahoo.com
+
+
+
+Additional thanks go to:
+
+* Bernhard Mecl: Very first beta tester
+bernhard.mecl@gmx.de
+
+* Gerhard Hafner: Railway informations
+<no current email address known>
+
+* Richard Tockey: Vehicle editor for Windows version
+darkfyre@phoenixdsl.com
+(The vehicle editor is no longer maintained as far as I know)
+
+* Veikka Kemppainen: Testing and suggestions and many other things
+vkem@kolumbus.fi
+
+
+
+Written by Hansjörg Malthaner, October 2000
+Last update: 27-Sep-2001
+hansjoerg.malthaner@gmx.de
+

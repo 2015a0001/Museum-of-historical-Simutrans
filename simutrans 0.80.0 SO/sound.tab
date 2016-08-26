@@ -1,0 +1,27 @@
+# sound.tab
+# Simutrans sound configuration file
+# by Hj. Malthaner, 2001
+#
+# user configurable sounds
+sound/bus.wav
+sound/truck.wav
+sound/diesel.wav
+sound/steam.wav
+#
+# internal used sounds, do not remove this entries!
+#
+# - income
+sound/cash.wav
+# remover sound
+sound/explosion.wav
+# - construction on water
+sound/dock.wav
+# - metal construction gets built
+sound/gavel.wav
+# - stone/concrete construction gets built
+sound/jackhammer.wav
+# - tool failed
+sound/boing.wav
+# - tool selection
+sound/click.wav
+# END OF FILE

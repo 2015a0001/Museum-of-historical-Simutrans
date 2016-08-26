@@ -1,0 +1,75 @@
+# goods.tab
+#
+# goods descriptions for Simutrans
+#
+# Author: Hj. Malthaner  
+# EMail:  hansjoerg.malthaner@gmx.de
+# Date: November 2000
+# Last change: March 2001
+#
+# Passenger MUST be first entry here!!!
+# never ever remove them!!!
+#
+name=Passagiere
+metric=
+value=50
+#
+# Mail MUST be second entry here!!!
+# never ever remove it!!!
+#
+name=Post
+metric=sack
+value=70
+#
+# None MUST be third entry here!!!
+# never ever remove it!!!
+#
+name=None
+metric=
+value=0
+#
+# changeable/removeable entries
+#
+name=Kohle
+metric=tonnen
+value=48
+#
+name=Eisenerz
+metric=tonnen
+value=52
+#
+name=Stahl
+metric=tonnen
+value=90
+#
+name=Holz
+metric=tonnen
+value=50
+#
+name=Bretter
+metric=tonnen
+value=90
+#
+name=Oel
+metric=m3
+value=58
+#
+name=Plastik
+metric=tonnen
+value=70
+#
+name=Autos
+metric=
+value=300
+#
+name=Papier
+metric=tonnen
+value=120
+#
+name=Bücher
+metric=paletten
+value=200
+#
+name=Moebel
+metric=paletten
+value=300

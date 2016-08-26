@@ -1,0 +1,843 @@
+Pycckš›
+BF
+c a¢š«
+H
+oc ao•ka
+Dock
+—ok
+1center
+%s %s
+2center
+%s Še p %s
+3center
+%s œa•a« %s
+4center
+%s inner %s
+5center
+%s To•apa« %s
+1nord
+%s Ce•ep %s
+1nordost
+%s Ce•epo-Boc ok %s
+1ost
+%s Boc ok %s
+1suedost
+%s ’–o-Boc ok %s
+1sued
+%s ’– %s
+1suedwest
+%s ’–o-„aŸa— %s
+1west
+%s „aŸa— %s
+1nordwest
+%s Ce•epo-„aŸa— %s
+1extern
+%s branch %s
+2extern
+%s extern %s
+3extern
+%s land %s
+4extern
+%s outer %s
+%1_CITY_SYLL
+Kpaco
+%2_CITY_SYLL
+ƒeœ o
+%3_CITY_SYLL
+„eœeo
+%4_CITY_SYLL
+€eœo
+%5_CITY_SYLL
+‹epo
+%6_CITY_SYLL
+œyŸo
+%7_CITY_SYLL
+My—po
+%8_CITY_SYLL
+‚o”po
+%9_CITY_SYLL
+‹ec o
+%A_CITY_SYLL
+Œyo
+%B_CITY_SYLL
+Cše
+&1_CITY_SYLL
+•ck 
+&2_CITY_SYLL
+—ap 
+&3_CITY_SYLL
+•o 
+&4_CITY_SYLL
+Ÿoœ¨ 
+&5_CITY_SYLL
+•ka 
+&6_CITY_SYLL
+«pck 
+&7_CITY_SYLL
+–pa— 
+&8_CITY_SYLL
+•ckš› 
+&9_CITY_SYLL
+• 
+&A_CITY_SYLL
+e 
+RAILTOOLS
+ƒeœ.—opo–a
+ROADTOOLS
+‚opo–a
+SHIPTOOLS
+Cy—oxo—c •o
+LANG_CHOOSE\n
+ˆo˜aœy›c a, •§”epš e\n Ÿpe—Ÿo£ š eœ¨§› «™§k:\n
+COLOR_CHOOSE\n
+ˆo˜aœy›c a, •§”epš e \n¢•e  —œ«\n a”œš¢§:\n
+1LIGHT_CHOOSE
+“pkoc ¨:
+2LIGHT_CHOOSE
+Š•e a:
+3LIGHT_CHOOSE
+Ckopoc ¨ Ÿpokpy kš:
+4LIGHT_CHOOSE
+O”pa a« Ÿpokpy ka
+5LIGHT_CHOOSE
+ˆoka™§•a ¨ ˜š eœe›
+Fahrzeugliste
+CŸšcok  pacŸop a
+1WORLD_CHOOSE
+Hac po›kš o•o› kap §:
+2WORLD_CHOOSE
+Hoep kap §:
+3WORLD_CHOOSE
+Pa™ep kap §:
+4WORLD_CHOOSE
+ˆpo.Ÿœo oc ¨:
+5WORLD_CHOOSE
+‹šcœo –opo—o•:
+6WORLD_CHOOSE
+… . —•š˜eš«:
+7WORLD_CHOOSE
+ˆoka™§•a ¨ ˜š eœe›
+8WORLD_CHOOSE
+Cea —« š o£š
+Finances
+‰šac§
+Construction:
+Koc pyk¢š«:
+New Vehicles:
+Ho•§›  pacŸop :
+Vehicle Running Costs:
+C ošoc ¨ ™aŸycka:
+Income:
+‚oxo—:
+Total:
+Bce–o:
+LOCO_INFO
+%s\nŠea: %d$ (%1.2f$/km)\nMo¥oc ¨: %dKW, %dkm/h\nBec: %dt\nBec šoc ¨: %d%s %s\n
+WAGGON_INFO
+%s\nŠea    : %d$ (%1.2f$/km)\nBec šoc ¨: %d%s %s\nBec: %dt\n
+TRUCK_INFO
+%s\nŠea    : %d$ (%1.2f$/km)\nCkopoc ¨   : %dkm/h\nBec šoc ¨: %d%s %s\n
+TRAILER_INFO
+%s\nŠea    : %d$ (%1.2f$/km)\nBec šoc ¨: %d%s %s\n
+Helligk. u. Farben
+Hac po›kš ©kpaa
+1Diesellokomotive
+H-Trans BR212 (—š™eœ¨)
+2Diesellokomotive
+H-Trans BR218 (—š™eœ¨)
+3Diesellokomotive
+H-Trans BR218 (—š™eœ¨)
+1Dampflokomotive
+H-Trans 0-4-0T (Ÿap)
+2Dampflokomotive
+H-Trans 4-6-0 (Ÿap)
+1Ellok
+H-Trans BR103 (©œek pš£eckš›)
+1TPEllok
+TPI F7A (—š™eœ¨)
+1Schienenbus
+H-Trans/TPI VT95 (dmu)
+Beiwagen
+H-Trans/TPI VT95 Ÿacca˜špckš› •a–o
+TPSchienenbus
+TPI VT98 (dmu)
+TPBeiwagen
+TPI VT98 Ÿacca˜špckš› •a–o
+Passagierwagen
+H-Trans Ÿacca˜špckš› •a–o
+TPPassagierwagen
+TPI Ÿacca˜špckš› •a–o
+S220_LOK1
+TPI S220 front engine (emu)
+S220_CAR
+TPI S220 Ÿacca˜špckš› •a–o
+S220_LOK2
+TPI S220 rear engine (emu)
+DM8_LOK1
+TPI Dm8 front engine (dmu)
+DM8_CAR
+TPI Dm8 Ÿacca˜špckš› •a–o
+DM8_LOK2
+TPI Dm8 rear engine (dmu)
+Postwagen
+H-Trans Ÿo£ o•o-”a–a˜§› •a–o
+Erzwagen
+H-Trans •a–o —œ« ˜eœe™o› py—§
+Kohlewagen
+H-Trans •a–o —œ« y–œ«
+Holzwagen
+H-Trans •a–o —œ« —pe•ecš§
+Oelwagen
+VT vienna •a–o —œ« e¡ š
+Stahlwagen
+VT vienna •a–o —œ« c aœeŸpoka a
+Staubkesselwagen
+VT vienna •a–o —œ« Ÿœac ška
+Autotransportwagen
+TPI Lopomo •a–o —œ« Ÿepe•o™kš a• oo”šœe›
+Papierwagen
+VT Vienna •a–o —œ« ”ya–š
+Buchwagen
+VT Vienna •a–o —œ« kš–
+Bretterwagen
+VT Vienna planks car
+2TPEllok
+TPI Class 86/2 (©œek pš£eckš›)
+TENDER
+TPI Tender
+TPDiesel
+TPI Class 26 (—š™eœ¨§›)
+Autotransporter
+H-Trans Ÿepe•o™£šk a• oo”šœe›
+Bus
+H-Trans A• o”yc
+Li6
+‡šA„-677
+Ik26
+Ikarus-260
+Serj-Mini
+Mškpoa• o”yc
+Posttransporter
+H-Trans ˆo£ o•§› –py™o•šk
+HVPosttransporter
+DIBU/H-Trans ˆo£ o•§› –py™o•šk
+Holztransporter
+H-Trans ‡eco•o™
+Erztransporter
+H-Trans py™o•šk —œ« ˜eœe™o› py—§
+Kohletransporter
+H-Trans py™o•šk —œ« y–œ«
+Tanklastzug
+H-Trans €e™o•o™
+Kunststofftransporter
+H-Trans py™o•šk —œ« Ÿœac ška
+Stahltransporter
+H-Trans py™o•šk —œ« c aœeŸpoka a
+Papiertransporter
+Trikky py™o•šk —œ« ”ya–š
+Buchtransporter
+Serj/H-Trans py™o•šk —œ« kš–
+Erzanhaenger
+H-Trans ˆpš¢eŸ —œ« ˜eœe™o› py—§
+Oelanhaenger
+H-Trans ˆpš¢eŸ —œ« ”e™o•o™a
+SlowFerry
+H-Trans ˆacca˜špckš› Ÿapo
+FastFerry
+O.Bang Fast Ferry (hovercraft)
+Oeltankschiff
+TPI Lopomo Oil tanker
+Eigenbesitz\n
+O”¥ec •eoe —oc o«še\n
+Privatbesitz\n
+‹ac a« co”c •eoc ¨\n
+Spieler
+…–pok
+Spieler(mz)
+…–pokš
+Lok/Waggon
+ˆoe™—
+Automobil
+Ma¤ša
+Fussgaenger
+ˆe¤exo—
+Baum
+‚epe•o
+Bruecke
+Moc 
+Tunnelmuendung
+Tyeœ¨
+Gebaeude
+„—aše
+Geb‚ude
+„—aše
+Haus
+ƒšœo› —o
+Wolke
+Cloud
+Lagerhaus
+Ma–a™š
+Schiene
+ƒeœe™o—opo˜oe Ÿoœo o
+Strasse
+‚opo–a
+Wasser
+Bo—a/Mope
+Boden
+„eœ«
+Tage alt
+days old
+Baustelle
+C po›ka\n
+Alter
+Bo™pac 
+Wert
+C ošoc ¨
+Level
+Ypo•e¨
+Haltestelle
+Oc ao•ka/C a¢š«
+Hier warten/lagern:
+O˜š—aª¥šx Ÿacca˜špo• š –py™o•:
+Angenommene Waren
+C§p¨ë eo”xo—šoe ”œš˜a›¤š Ÿpoš™•o—c •a
+   via %s\n
+   by %s\n
+Direkt erreichbare Haltestellen
+HeŸocpe—c •eo c•«™a§e oc ao•kš/c a¢šš
+Stadtinformation
+opo—cka« c a šc ška
+Einwohner
+˜š eœš
+Passagierziele
+Pass./mail destinations
+letzen Monat: diesen Monat:
+Ÿpo¤œ§› ec«¢:   © o  ec«¢:
+B‘cher
+Kš–š
+Kohle
+Y–oœ¨
+Eisenerz
+ƒeœe™a« py—a
+Stahl
+C aœ¨
+Passagiere
+ˆacca˜šp§
+Passagierrate
+ˆacca˜šp§
+Pass.
+ˆacc.
+Post
+ˆo£ a
+Holz
+‡ec
+Bretter
+‚ockš
+Oel
+He¡ ¨
+Plastik
+ˆœac šk
+Autos
+A• oo”šœš
+Papier
+€ya–a
+LKW
+py™o•šk
+Zug
+ˆoe™—
+Fracht
+‰pax 
+Gewinn
+‚oxo—
+Leistung
+Mo¥oc ¨
+Gewicht
+Bec
+Nutzwald
+‡eco™a–o o•ka
+S‚gewerk
+‡ecoŸšœka
+Erzbergwerk
+ƒeœe™opy—a« ¤ax a
+Kohlegrube
+Y–oœ¨a« ¤ax a
+Stahlwerk
+‡š e›§› ™a•o—
+Oelfeld
+He¡ «a« •§¤ka
+Oelbohrinsel
+He¡ «a« •§¤ka
+Raffinerie
+Hˆ„
+Autohersteller
+A• o™a•o—
+Autohaus
+A• oa–a™š
+Kohlekraftwerk
+‘œek poc a¢š«
+Papierfabrik
+€ya˜a« ¡a”pška
+Druckerei
+TšŸo–pa¡š«
+Buchgrosshandel
+Kš˜§› a–a™š
+Durchsatz
+Makc. Ÿpoš™•.
+Produktion
+ˆpoš™•o—c •o
+Verbrauch
+ˆo pe”œeše
+Power
+Mo¥oc ¨
+strong
+strong
+good
+good
+weak
+weak
+fail
+fail
+Leitung
+‡šš« ©œek poŸepe—a£š
+Abnehmer
+ˆo pe”š eœ¨
+Arbeiter aus:
+Pa”o škš ˜š•y  •:
+bei
+• Ÿyk e
+leer
+Ÿyc o
+nichts
+š£e–o
+keine
+e 
+Details
+ˆo—po”oc š
+Meldung
+Coo”¥eše
+Strassendepot
+apa˜
+Bahndepot
+‚eŸo
+Schiffdepot
+ˆop 
+Verschuldet:\n\nDu hast drei Monate Zeit,\ndie Schulden zurueckzuzahlen.\n
+You are in debt!\n\nYou have three months\nto repay your debt!\n
+Verschuldet:\n\nDenk daran, rechtzeitig\ndie Schulden zurueckzuzahlen.\n
+You are in debt!\n\nRemember to repay\nyour debt!\n
+Bankrott:\n\nDu bist bankrott.\n
+Bankrupt:\n\nYou are bankrupt.\n
+Kein Fahrzeug\nausgew‚hlt.\n
+He •§”pa  pacŸop .\n
+Noch kein Fahrzeug\nf‘r Fahrplan\nvorhanden\n
+No vehicle to\nschedule yet!\n
+Noch kein Fahrzeug\nmit Fahrplan\nvorhanden\n
+Give the Vehicle(s)\na schedule, before\ngiving it the go\norder!\n
+Blockstrecke ist\nbelegt\n
+Y£ac ok Ÿy š\nšcŸoœ¨™ye c«\n—py–š Ÿoe™—o\n
+Post muss neben\nHaltestelle\nliegen!\n
+ˆo£ o•oe o —eœeše —oœ˜o\naxo—š ¨c« •o™œe\noc ao•kš/c a¢šš!\n
+Lager muss neben\nHaltestelle\nliegen!\n
+Ckœa— —oœ˜e\naxo—š ¨c« •o™œe\noc ao•kš/c a¢šš!\n
+Es ist ein\nObjekt im Weg!\n
+‹ o- o ec ¨\na Ÿy š!\n
+Hier kann kein\nBahnhof ge-\nbaut werden!\n
+„—ec¨ eœ¨™« Ÿoc poš ¨\n˜eœe™o—opo˜yª\nc a¢šª!\n
+Bahnhof kann\nnur auf Schienen\ngebaut werden!\n
+ƒeœe™o—opo˜yª c a¢šª\no˜o Ÿoc poš ¨  oœ¨ko\na peœ¨cax!\n
+Die Schiene\ngehoert einem\nanderen Spieler!\n
+Y£ac ok ˜eœe™o› —opo–š\nŸpša—œe˜š  —py–oy\nš–poky!\n
+Haltestelle kann\nnur auf Schienen\ngebaut werden!\n
+A• o”ycyª oc ao•ky o˜o\nŸoc poš ¨  oœ¨ko\n a —opo–e!\n
+Hier kann keine\nHaltestelle ge-\nbaut werden!\n
+„—ec¨ eœ¨™« Ÿoc poš ¨\na• o”ycyª oc ao•ky!\n
+Bruecke muss auf\nStra¦e beginnen!\n
+Moc  —oœ˜e a£ša ¨c«\na —opo–e!\n
+Bruecke muss auf\nSchiene beginnen!\n
+ƒeœe™o—opo˜§› oc \n—oœ˜e a£ša ¨c«\na peœ¨cax!\n
+Bruecke muss an\neinfachem\nHang beginnen!\n
+Moc § —oœ˜§\na£ša ¨c«\na Ÿp«o ckœoe!\n
+Bruecke muss auf\nStra¦e enden!\n
+Moc  —oœ˜e ™aka£š•a ¨c«\na —opo–e!\n
+Bruecke muss auf\nSchiene enden!\n
+ƒeœe™o—opo˜§› oc \n—oœ˜e ™aka£š•a ¨c« a peœ¨cax!\n
+Tunnel muss an\nStra¦e beginnen!\n
+Tyeœ¨ —oœ˜e\na£ša ¨c« a —opo–e!\n
+Tunnel muss an\nSchiene beginnen!\n
+ƒeœe™o—opo˜§›  yeœ¨\n—oœ˜e a£ša ¨c« a\npeœ¨cax!\n
+Tunnel muss an\neinfachem\nHang beginnen!\n
+Tyeœš —oœ˜§\na£ša ¨c« a Ÿp«o\nckœoe!\n
+Tunnel muss an\nStra¦e enden!\n
+Tyeœ¨ —oœ˜e\n™aka£š•a ¨c« a —opo–e!\n
+Tunnel muss an\nSchiene enden!\n
+ƒeœe™o—opo˜§›  yeœ¨\n—oœ˜e ™aka£š•a ¨c«\na peœ¨cax!\n
+Frachthof kann\nnur auf Strasse\ngebaut werden!\n
+A loading bay\ncan only be built\non a road!\n
+Hier kann kein\nFrachthof ge-\nbaut werden!\n
+No loading bay\ncan be built here!\n
+Hier kann kein\nSignal aufge-\nstellt werden!\n
+„—ec¨ eœ¨™«\nŸoc a•š ¨\ncea¡op§!\n
+Zu nah an einem\nanderen Signal!\n
+Rail signals can't\nbe built here.\nAnother signal\nis too near!\n
+Zu nahe an\neiner Kreuzung\noder Weiche!\n
+A railroad signal\ncan't be built here.\nToo near to a\ncrossing or switch!\n
+Hier kann kein\nBahndepot ge-\nbaut werden!\n
+A train depot\ncan't be built\nhere!\n
+Hier kann kein\nStra¦endepot ge-\nbaut werden!\n
+A car depot\ncan't be built\nhere!\n
+Hier kann kein\nSchiffdepot ge-\nbaut werden!\n
+A ship depot\ncan't be built\nhere!\n
+Kann Kreuzung\nerst entfernen\nwenn alle\nSchienen ent-\nfernt wurden\n
+Cannot remove\ncrossing with\nconnected\nrailroads.\n
+Kann Blockstrecke\nnicht trennen.\n
+Can't split\nrail block.\n
+Ein Zug ist\nim Weg!\n
+There's a train\nin the way!\n
+Der Besitzer erlaubt das Entfernen nicht
+The owner refuses\npermission to\nremove this.\n
+Fahrzeuge koennen so nicht entfernt werden
+Vehicles cannot\nbe removed\nthis way.\n
+Schienenbruecken koennen noch nicht entfernt werden
+Railbridges can\nnot be removed\nyet.\n
+Zughalt muss auf\nSchiene liegen!\n
+Train stops\ncan only be\nplaced on a\nrailroad track!\n
+Autohalt muss auf\nStra¦e liegen!\n
+Truck stops\ncan only be\nplaced on a road!\n
+Schiffhalt muss im\nWasser liegen!\n
+A ship stop can only\nbe placed on water\nnear a dock!\n
+Es wird bereits\nein Fahrplan\neingegeben\n
+A schedule is\nbeing planned.\nFinish it first\nbefore rescheduling!\n
+Ein Fahrplan\nbraucht min.\neine Station\n
+A schedule needs\nat least one stop!\n
+Das Feld gehoert\neinem anderen Spieler\n
+This piece of\nland is owned by\nanother player!\n
+Spielstand wurde\ngespeichert!\n
+\nGame successfully saved!\n
+Spielstand wurde\ngeladen!\n
+\nGame successfully loaded!\n
+Bruecke muss auf\nStrassenende\nbeginnen!\n
+Road bridges must\nstart on the end\nof a road!\n
+Bruecke muss auf\nSchienenende\nbeginnen!\n
+Rail Bridges must\nstart on the end\nof a railroad!\n
+Kann Spielstand\nnicht laden.\n
+Can't read/open\nsavegame file!\n
+Kann Spielstand\nnicht speichern.\n
+Can't open save\ngame file for\nwriting!\n
+Erzeuge neue Karte.\n
+Please wait,\ncreating a\nnew map ...\n\n (This may take\n a few minutes\n for big maps.)\n
+Wagen im Block
+waggons currently in\nrail block
+Screenshot\ngespeichert.\n
+Coxpaë\ncšok ©kpaa.\n
+Zu nah am Kartenrand
+Too near to the\nedge of the map\nto build something.\n
+Ein %s\npasst hier nicht.\n
+A '%s'\ndoesn't fit here.\n
+Es fehlt noch ein Fahrzeug!\n
+A necessary vehicle\nis missing!\n
+Noch keine Haltestellen
+ˆyk § oc ao•ok Ÿoka e yka™a§.
+There are still vehicles\nstored in this depot!\n
+There are still vehicles\nstored in this depot!\n
+Wegpunkt
+Waypoint
+Add Stop
+‚o”a•š ¨ oc ao•ky
+Ins Stop
+ Bc a•š ¨
+Del Stop
+ Y—aœš ¨
+Fertig
+ o o•o
+Fahrplan
+Map¤py 
+Verkauf
+ˆpo—a˜a
+Start
+„aŸyck
+Restwert:
+Selling value:
+miserabel
+miserable
+schlecht
+bad
+durchschnitt
+average
+gut
+good
+sehr gut
+very good
+bestens
+superior
+excellent
+brilliant
+spitze
+outstanding
+Fabrikanschluss
+Connected industr.
+Tage
+days
+Credits
+credits
+Reliefkarte
+Kap a
+Sound settings
+Hac po›kš ™•yka
+Sound
+„•yk
+Sound volume:
+pokoc ¨ ™•yka:
+Music volume:
+pokoc ¨ y™§kš:
+Abfrage
+Inspection Tool
+Anheben
+Raise land
+Absenken
+Lower land
+Schienenbau
+C poš eœ¨c •o ˜eœe™§x —opo–
+Strassenbau
+C poš eœ¨c •o —opo–
+Wasserbau
+C poš eœ¨c •o —oko•/Ÿop o•
+Einstellungsfenster
+ˆapae p§ š–p§
+Abriss
+Pa™py¤š ¨/Y—aœš ¨
+Bahnhof
+ˆoc poš ¨ ˜eœ.-—op. c a¢šª
+Bushaltestelle
+ˆoc poš ¨ a• o”ycyª oc ao•ky
+Frachthof
+Build truck loading bay
+Posthaus
+ˆoc poš ¨ Ÿo£ o•oe o —eœeše
+Baue Lagerhaus
+ˆoc poš ¨ ckœa—
+Strassentunnel
+ˆoc poš ¨  yeœ¨
+Schienentunnel
+ˆoc poš ¨ ˜eœe™o—opo˜§›  yeœ¨
+Strassenbruecke
+ˆoc poš ¨ oc 
+Schienenbruecke
+ˆoc poš ¨ ˜eœe™o—opo˜§› oc 
+tonnen
+ 
+sack
+ bags
+m3
+ky”.
+paletten
+ kopo”ok
+Abgabe
+Output
+Verbrauch
+ˆo pe”œeše
+Spielerliste
+CŸšcok š–poko•
+SPIELERLISTE
+\n   Cšš› . . . .  %.2f$\n\n   ƒëœ §› . .  %.2f$\n\n   Kpac§› . . . . . %.2f$\n\n   „eœë§› . . .  %.2f$\n\n   €špª™o•§› %.2f$\n\n   Po™o•§› . . . .  %.2f$\n
+Einstellungen
+ˆapae p§:
+Einstellungen aendern
+…™eš ¨ Ÿapae p§:\n
+Sprache
+“™§k
+Farbe
+Š•e 
+Helligk.
+O o”pa˜eše
+Laden
+„a–py™ka
+Speichern
+Coxpaeše
+Beenden
+B§xo—
+Neue Karte
+Ho•a« kap a
+Starte Spiel
+ „aŸyck š–p§
+01_WOHN
+He”oœ¨¤o› —o\nc ca—o\n
+02_WOHN
+He”oœ¨¤o› —o\nc ca—o\n
+03_WOHN
+He”oœ¨¤o› —o\nc ca—o\n(by Trikky)\n
+04_WOHN
+He”oœ¨¤o› —o\nc ca—o\n(by Trikky)\n
+05_WOHN
+Cpe—š› —o\nc ca—o\n
+06_WOHN
+€oœ¨¤o› —o\nc ca—o\n
+07_WOHN
+He”oœ¨¤o› Ÿapk\nc Ÿpy—o\n(by Trikky)\n
+08_WOHN
+Cpe—š› —o\nc ca—o\n(by Trikky)\n
+09_WOHN
+Double house\nwith garden\n
+10_WOHN
+Šepko•¨\n(by Trikky)\n
+11_WOHN
+Flats\n(by O.S.)\n
+12_WOHN
+Flats tower\n(by O.S.)\n
+13_WOHN
+VT Monument\n\n Build to\n remind everyone\n of the great\n waggons\n designed and\n built by the\n VT Vienna.\n
+14_WOHN
+He”oœ¨¤o› Ÿa« šk\n(by Trikky)\n
+15_WOHN
+C apa« •šœœa\n
+LILLY
+Lilly Memorial\n
+16_WOHN
+Apartment\nblock\n
+BIG_APP_TOWER
+Big apartment\ntower\n(by Seth)\n
+SMALL_HOUSE
+He”oœ¨¤o› —o\n(by Seth)\n
+A_FRAME_HOUSE
+A-Frame type\nhouse (by Seth)\n
+MED_HOUSE
+Cpe—š› —o\n(by Seth)\n
+SHOP1
+He”oœ¨¤o› a–a™š\n
+BUERO1
+O¡šcoe ™—aše\n
+RBUERO1
+He”oœ¨¤oe o¡šcoe\n™—aše c\na• oc o«ko›\n(by Trikky)\n
+TRIKKYPARK
+Trikkys Park\n
+TANKE
+„aŸpa•ka\n
+BUERO2
+He”oœ¨¤o› yš•epa–\n\n
+HOCHHAUS2
+O¡šcoe ™—aše\n(by Trikky)\n
+HOCHHAUS3
+O¡šcoe ™—aše\n(by Trikky)\n
+HOCHHAUS4
+Office tower\n(by Trikky)\n
+WOHNSHOP1
+Apartment block\nwith some\nshops.\n
+BANK
+Drive through\nBank\n(by Seth)\n
+BARCELONA_GRAND
+Barcelona\ngrand hotel\n(by Wefer)\n
+CHEMIST
+AŸ eka\n(by Seth)\n
+CINEMA
+C ap§› kšo ea p\n(by Seth)\n
+INSURANCE
+O¡šc c paxo•o› koŸašš\n(by Trikky)\n
+MODERN_OFFICES
+Co•peeoe o¡šcoe ™—aše\n(by Trikky)\n
+IMPRESSIVE_OFFICES
+Impressive office block\n(by Trikky)\n
+TALL_MOB
+Tall modern\noffice block\n(by Trikky)\n
+01_FAB
+Ckœa—\n
+02_FAB
+Storage sheds\n
+03_FAB
+Oil/petrol\ndepot\n
+04_FAB
+‰a”pš£oe\n™—aše\n
+05_FAB
+Fluids depot\n
+06_FAB
+€oœ¨¤o› ™a•o—\n
+07_FAB
+‰a”pš£oe\n™—aše\n
+08_FAB
+Tools factory\n(by Seth)\n
+MACHINE_FACTORY
+Old machine\nfactory (by O.S)\n
+TRIKKY_POTTERY
+Pottery Works\n(by Trikky)\n
+TRIKKY_FACTORY
+Metal works\n(by Trikky)\n
+01_CITY
+Town hall\n
+A1_ALTE_KIRCHE
+\n „aeš a« c apša«\n ¢epko•¨. Ka˜—§›\n—oœ˜e y•š—e ¨\n © o Ÿo p«caª¥ee\n™—aše.\n
+A2_SCHLOSS1
+\n „aok cyac¤e—¤e–o\nkopoœ«.\n ‘ o —e›c •š eœ¨o\n c oš  y•š—e ¨!\n
+A3_BURG1
+\n Some ruins\n telling of\n better times.\n They're always\n worth a journey.\n
+A4_SCHLOSS2
+\n This old\n castle is\n always worth\n seeing.\n
+A5_STONEHENGE
+\n An ancient ring\n of stones.\n Very mysterious!\n
+A6_DOME
+\n This beautiful\n old cathedral\n is a real\n attraction.\n
+STADIUM
+\n The stadium is home to\n many exciting sporting\n events! It can\n seat 25,000.\n
+17_WOHN
+Old style\nflats and shops\n(by O.S.)\n
+18_WOHN
+Apartment\ntower (by Wefer)\n
+1_BRICK_HOUSE
+Brick apartment\nbuilding (by Seth)\n
+MODERN_HOUSE
+Modern house\n(by Seth)\n
+WATER_CISTERN
+Bo—oaŸopa« ”a¤«\n(by Seth)\n
+SMALL_FACTORY
+He”oœ¨¤o› ™a•o—\n(by Seth)\n
+MEDIUM_OFFICE
+Medium office\nblock with car\npark (by Seth/HjM)\n
+TALL_OFFICE
+Tall office\nblock (by Seth)\n
+2_MEDIUM_OFFICE
+Medium office\nblock (by Seth)\n
+CEMENT_MILL
+Cement mill\n(by Seth)\n
+SHEET_METAL
+Sheet metal\nfabricator\n(by Seth)\n
+SMALL_APS
+Small apartments\n(by Trikky)\n
+SMALL_FLATS
+Small block of flats\n(by Trikky)\n
+SMALL_LUXURY
+Small luxury\napartments (by Trikky)\n
+LARGE_LUXURY
+Large luxury\nhouse (by Trikky)\n
+LARGE_OFFICE
+Large office\nbuilding (by Trikky)\n
+2_LARGE_OFFICE
+Large modern\noffice building\n(by Trikky)\n
+2_MODERN_OFFICES
+Modern office\nbuilding (by Trikky)\n
+1_DET_HOUSE
+Large detached\nhouse (by O.S.)\n
+FOUNTAIN
+‰o a\n(by Trikky)\n
+ANIM_CINEMA
+Kšo ea p\n(by Trikky)\n
+Neue Welt
+Co™—a ¨ o•§› Mšp
+Keine Info.
+He  —a§x.
+q1
+Beca
+q2
+‡e o
+q3
+Oce¨
+q4
+„ša
+Lokomotive_tab
+TeŸœo•o™§
+Waggon_tab
+Ba–o§
+LKW_tab
+py™o•škš
+Anhaenger_tab
+ˆpš¢eŸ§
+Schiff_tab
+Kopa”œš
+Schleppkahn_tab
+€ake§
